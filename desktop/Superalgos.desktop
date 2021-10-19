@@ -1,0 +1,10 @@
+[Desktop Entry]
+            Type=Application
+            Encoding=UTF-8
+            Name=Superalgos
+            Comment=Launch Shortcut for Superalgos 
+            Path=/home/thiago-sidi/Projects/personal/Superalgos/Launch-Scripts
+            Exec=gnome-terminal -e /home/thiago-sidi/Projects/personal/Superalgos/Launch-Scripts/launch-linux-mac.sh
+            Terminal=true
+            Icon=/home/thiago-sidi/Projects/personal/Superalgos/Projects/Foundations/Icons/superalgos.png
+            Categories=Application;

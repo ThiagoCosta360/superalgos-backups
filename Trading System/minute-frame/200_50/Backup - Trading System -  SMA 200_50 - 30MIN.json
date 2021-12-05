@@ -1,0 +1,1483 @@
+{
+    "type": "Trading System",
+    "name": "SMA 200/50 - 30MIN",
+    "project": "Algorithmic-Trading",
+    "tradingStrategies": [
+        {
+            "type": "Trading Strategy",
+            "name": "SMA 200/50 - 30MIN",
+            "project": "Foundations",
+            "triggerStage": {
+                "type": "Trigger Stage",
+                "name": "New Trigger Stage",
+                "project": "Foundations",
+                "triggerOn": {
+                    "type": "Trigger On Event",
+                    "name": "New Trigger On Event",
+                    "project": "Foundations",
+                    "situations": [
+                        {
+                            "type": "Situation",
+                            "name": "New Situation",
+                            "project": "Foundations",
+                            "conditions": [
+                                {
+                                    "type": "Condition",
+                                    "name": "New Condition",
+                                    "project": "Foundations",
+                                    "javascriptCode": {
+                                        "type": "Javascript Code",
+                                        "name": "30MIN SMA50 > SMA200",
+                                        "code": "chart.at30min.popularSMA.sma50 > chart.at30min.popularSMA.sma200",
+                                        "project": "Foundations",
+                                        "id": "87c8c154-e607-427d-9e7d-251bc25fc9b5",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 30654.824793446467,
+                                                "y": 30576.390031344774
+                                            },
+                                            "targetPosition": {
+                                                "x": 30804.619223659654,
+                                                "y": 30568.539637908332
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 1,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            }
+                                        }
+                                    },
+                                    "id": "ce8b1fec-0557-4521-900f-1ece1c771849",
+                                    "savedPayload": {
+                                        "position": {
+                                            "x": 30804.619223659654,
+                                            "y": 30568.539637908332
+                                        },
+                                        "targetPosition": {
+                                            "x": 30954.41365387284,
+                                            "y": 30560.68924447189
+                                        },
+                                        "floatingObject": {
+                                            "isPinned": false,
+                                            "isFrozen": false,
+                                            "isCollapsed": false,
+                                            "angleToParent": 2,
+                                            "distanceToParent": 3,
+                                            "arrangementStyle": 0
+                                        },
+                                        "uiObject": {
+                                            "isRunning": false
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "Condition",
+                                    "name": "New Condition",
+                                    "project": "Foundations",
+                                    "javascriptCode": {
+                                        "type": "Javascript Code",
+                                        "name": "30MIN PREVIOUS SMA50 < SMA200",
+                                        "code": "chart.at30min.popularSMA.previous.sma50 < chart.at30min.popularSMA.previous.sma200",
+                                        "project": "Foundations",
+                                        "id": "731f7d61-3550-41a0-b500-1d741109a904",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 30791.02194336833,
+                                                "y": 30309.088074088264
+                                            },
+                                            "targetPosition": {
+                                                "x": 30872.717798620586,
+                                                "y": 30434.888659280077
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 1,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            }
+                                        }
+                                    },
+                                    "id": "6ba1aebe-0aac-4741-92bf-6b1fe7fa5bca",
+                                    "savedPayload": {
+                                        "position": {
+                                            "x": 30872.717798620586,
+                                            "y": 30434.888659280077
+                                        },
+                                        "targetPosition": {
+                                            "x": 30954.41365387284,
+                                            "y": 30560.68924447189
+                                        },
+                                        "floatingObject": {
+                                            "isPinned": false,
+                                            "isFrozen": false,
+                                            "isCollapsed": false,
+                                            "angleToParent": 2,
+                                            "distanceToParent": 3,
+                                            "arrangementStyle": 0
+                                        },
+                                        "uiObject": {
+                                            "isRunning": false
+                                        }
+                                    }
+                                }
+                            ],
+                            "id": "a11363c3-dd18-4919-91a6-18ddd02dd58b",
+                            "savedPayload": {
+                                "position": {
+                                    "x": 30954.41365387284,
+                                    "y": 30560.68924447189
+                                },
+                                "targetPosition": {
+                                    "x": 31088.064632501097,
+                                    "y": 30628.787819432822
+                                },
+                                "floatingObject": {
+                                    "isPinned": false,
+                                    "isFrozen": false,
+                                    "isCollapsed": false,
+                                    "angleToParent": 1,
+                                    "distanceToParent": 3,
+                                    "arrangementStyle": 0
+                                },
+                                "uiObject": {
+                                    "isRunning": false
+                                }
+                            }
+                        }
+                    ],
+                    "announcements": [],
+                    "id": "b2ae3cd2-5472-472f-84c4-0dce156cf515",
+                    "savedPayload": {
+                        "position": {
+                            "x": 31088.064632501097,
+                            "y": 30628.787819432822
+                        },
+                        "targetPosition": {
+                            "x": 31221.71561112935,
+                            "y": 30696.886394393754
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 2,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
+                "triggerOff": {
+                    "type": "Trigger Off Event",
+                    "name": "New Trigger Off Event",
+                    "project": "Foundations",
+                    "situations": [
+                        {
+                            "type": "Situation",
+                            "name": "New Situation",
+                            "project": "Foundations",
+                            "conditions": [
+                                {
+                                    "type": "Condition",
+                                    "name": "New Condition",
+                                    "project": "Foundations",
+                                    "javascriptCode": {
+                                        "type": "Javascript Code",
+                                        "name": "False",
+                                        "code": "false",
+                                        "project": "Foundations",
+                                        "id": "2bf6081e-853e-4820-8896-8412f7f4655d",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 31036.30541450438,
+                                                "y": 30126.252484616656
+                                            },
+                                            "targetPosition": {
+                                                "x": 31082.657963660622,
+                                                "y": 30268.91096206093
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 1,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            }
+                                        }
+                                    },
+                                    "id": "bbf032ce-4519-4d28-8ff4-b3fa2407db15",
+                                    "savedPayload": {
+                                        "position": {
+                                            "x": 31082.657963660622,
+                                            "y": 30268.91096206093
+                                        },
+                                        "targetPosition": {
+                                            "x": 31129.010512816865,
+                                            "y": 30411.569439505205
+                                        },
+                                        "floatingObject": {
+                                            "isPinned": false,
+                                            "isFrozen": false,
+                                            "isCollapsed": false,
+                                            "angleToParent": 1,
+                                            "distanceToParent": 3,
+                                            "arrangementStyle": 0
+                                        },
+                                        "uiObject": {
+                                            "isRunning": false
+                                        }
+                                    }
+                                }
+                            ],
+                            "id": "b5e66305-751d-441d-a326-b996ef4adc4f",
+                            "savedPayload": {
+                                "position": {
+                                    "x": 31129.010512816865,
+                                    "y": 30411.569439505205
+                                },
+                                "targetPosition": {
+                                    "x": 31175.36306197311,
+                                    "y": 30554.22791694948
+                                },
+                                "floatingObject": {
+                                    "isPinned": false,
+                                    "isFrozen": false,
+                                    "isCollapsed": false,
+                                    "angleToParent": 1,
+                                    "distanceToParent": 3,
+                                    "arrangementStyle": 0
+                                },
+                                "uiObject": {
+                                    "isRunning": false
+                                }
+                            }
+                        }
+                    ],
+                    "announcements": [],
+                    "id": "bd3f4569-b761-40e6-8648-9cd3fc38ebe0",
+                    "savedPayload": {
+                        "position": {
+                            "x": 31175.36306197311,
+                            "y": 30554.22791694948
+                        },
+                        "targetPosition": {
+                            "x": 31221.71561112935,
+                            "y": 30696.886394393754
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 2,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
+                "takePosition": {
+                    "type": "Take Position Event",
+                    "name": "New Take Position Event",
+                    "project": "Foundations",
+                    "situations": [
+                        {
+                            "type": "Situation",
+                            "name": "New Situation",
+                            "project": "Foundations",
+                            "conditions": [
+                                {
+                                    "type": "Condition",
+                                    "name": "New Condition",
+                                    "project": "Foundations",
+                                    "javascriptCode": {
+                                        "type": "Javascript Code",
+                                        "name": "True",
+                                        "code": "true",
+                                        "project": "Foundations",
+                                        "id": "5756e685-483e-4990-aaa4-3cc772488e5e",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 31494.10991097308,
+                                                "y": 30162.282479880734
+                                            },
+                                            "targetPosition": {
+                                                "x": 31426.011336012147,
+                                                "y": 30295.93345850899
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 1,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            }
+                                        }
+                                    },
+                                    "id": "4ab50201-4440-4ccd-830c-a39c6e3f492a",
+                                    "savedPayload": {
+                                        "position": {
+                                            "x": 31426.011336012147,
+                                            "y": 30295.93345850899
+                                        },
+                                        "targetPosition": {
+                                            "x": 31357.912761051215,
+                                            "y": 30429.584437137244
+                                        },
+                                        "floatingObject": {
+                                            "isPinned": false,
+                                            "isFrozen": false,
+                                            "isCollapsed": false,
+                                            "angleToParent": 1,
+                                            "distanceToParent": 3,
+                                            "arrangementStyle": 0
+                                        },
+                                        "uiObject": {
+                                            "isRunning": false
+                                        }
+                                    }
+                                }
+                            ],
+                            "id": "ad25300a-d48f-4b47-a617-dc4b6aebf5a4",
+                            "savedPayload": {
+                                "position": {
+                                    "x": 31357.912761051215,
+                                    "y": 30429.584437137244
+                                },
+                                "targetPosition": {
+                                    "x": 31289.814186090283,
+                                    "y": 30563.2354157655
+                                },
+                                "floatingObject": {
+                                    "isPinned": false,
+                                    "isFrozen": false,
+                                    "isCollapsed": false,
+                                    "angleToParent": 1,
+                                    "distanceToParent": 3,
+                                    "arrangementStyle": 0
+                                },
+                                "uiObject": {
+                                    "isRunning": false
+                                }
+                            }
+                        }
+                    ],
+                    "announcements": [],
+                    "id": "c0362c0c-fdd9-40ae-8bba-32074f27633a",
+                    "savedPayload": {
+                        "position": {
+                            "x": 31289.814186090283,
+                            "y": 30563.2354157655
+                        },
+                        "targetPosition": {
+                            "x": 31221.71561112935,
+                            "y": 30696.886394393754
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 2,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
+                "announcements": [],
+                "id": "9db4cea0-1f36-4711-9b9c-b30a17cfbdb3",
+                "savedPayload": {
+                    "position": {
+                        "x": 31221.71561112935,
+                        "y": 30696.886394393754
+                    },
+                    "targetPosition": {
+                        "x": 31314.420709441834,
+                        "y": 30982.2033492823
+                    },
+                    "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": false,
+                        "angleToParent": 1,
+                        "distanceToParent": 3,
+                        "arrangementStyle": 0
+                    },
+                    "uiObject": {
+                        "isRunning": false
+                    }
+                }
+            },
+            "openStage": {
+                "type": "Open Stage",
+                "name": "New Open Stage",
+                "config": "{\n\"roundingErrorCorrectionFactor\": 1.01 \n}",
+                "project": "Foundations",
+                "initialTargets": {
+                    "type": "Initial Targets",
+                    "name": "New Initial Targets",
+                    "project": "Foundations",
+                    "targetRate": {
+                        "type": "Target Rate",
+                        "name": "New Target Rate",
+                        "project": "Foundations",
+                        "formula": {
+                            "type": "Formula",
+                            "name": "30MIN Close",
+                            "code": "chart.at30min.candle.close",
+                            "project": "Foundations",
+                            "id": "2ca4abc0-a41b-45e1-8f63-f20e4e9434fd",
+                            "savedPayload": {
+                                "position": {
+                                    "x": 31586.77776523539,
+                                    "y": 30370.47938633768
+                                },
+                                "targetPosition": {
+                                    "x": 31602.45703472554,
+                                    "y": 30519.657670642922
+                                },
+                                "floatingObject": {
+                                    "isPinned": false,
+                                    "isFrozen": false,
+                                    "isCollapsed": false,
+                                    "angleToParent": 1,
+                                    "distanceToParent": 3,
+                                    "arrangementStyle": 0
+                                },
+                                "uiObject": {
+                                    "isRunning": false
+                                }
+                            }
+                        },
+                        "id": "774cda86-34ec-4f72-a982-ad5e13ded1b7",
+                        "savedPayload": {
+                            "position": {
+                                "x": 31602.45703472554,
+                                "y": 30519.657670642922
+                            },
+                            "targetPosition": {
+                                "x": 31618.136304215688,
+                                "y": 30668.835954948165
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "targetSizeInQuotedAsset": {
+                        "type": "Target Size In Quoted Asset",
+                        "name": "New Target Size In Quoted Asset",
+                        "project": "Foundations",
+                        "formula": {
+                            "type": "Formula",
+                            "name": "Full Balance",
+                            "code": "tradingEngine.tradingCurrent.tradingEpisode.episodeQuotedAsset.balance.value",
+                            "project": "Foundations",
+                            "id": "23bbe66c-9bd6-4f27-b405-95176cb341fe",
+                            "savedPayload": {
+                                "position": {
+                                    "x": 31860.841402528175,
+                                    "y": 30492.500379260422
+                                },
+                                "targetPosition": {
+                                    "x": 31739.48885337193,
+                                    "y": 30580.668167104293
+                                },
+                                "floatingObject": {
+                                    "isPinned": false,
+                                    "isFrozen": false,
+                                    "isCollapsed": false,
+                                    "angleToParent": 1,
+                                    "distanceToParent": 3,
+                                    "arrangementStyle": 0
+                                },
+                                "uiObject": {
+                                    "isRunning": false
+                                }
+                            }
+                        },
+                        "id": "f8245666-ebb5-4b2a-87c8-fb41cbbff4d1",
+                        "savedPayload": {
+                            "position": {
+                                "x": 31739.48885337193,
+                                "y": 30580.668167104293
+                            },
+                            "targetPosition": {
+                                "x": 31618.136304215688,
+                                "y": 30668.835954948165
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "id": "e8879599-22c4-4653-a9fe-8e54cf83bc7e",
+                    "savedPayload": {
+                        "position": {
+                            "x": 31618.136304215688,
+                            "y": 30668.835954948165
+                        },
+                        "targetPosition": {
+                            "x": 31557.125807754317,
+                            "y": 30805.867773594557
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 2,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
+                "openExecution": {
+                    "type": "Open Execution",
+                    "name": "New Open Execution",
+                    "project": "Foundations",
+                    "executionAlgorithms": [
+                        {
+                            "type": "Execution Algorithm",
+                            "name": "New Execution Algorithm",
+                            "config": "{\n\"percentageOfStageTargetSize\": 100 \n}",
+                            "project": "Foundations",
+                            "marketBuyOrders": [
+                                {
+                                    "type": "Market Buy Order",
+                                    "name": "Open Buy Market Order",
+                                    "config": "{\n    \"percentageOfAlgorithmSize\": 100,\n    \"spawnMultipleOrders\": false\n}",
+                                    "project": "Foundations",
+                                    "createOrderEvent": {
+                                        "type": "Create Order Event",
+                                        "name": "New Create Order Event",
+                                        "project": "Foundations",
+                                        "situations": [
+                                            {
+                                                "type": "Situation",
+                                                "name": "New Situation",
+                                                "project": "Foundations",
+                                                "conditions": [
+                                                    {
+                                                        "type": "Condition",
+                                                        "name": "New Condition",
+                                                        "project": "Foundations",
+                                                        "javascriptCode": {
+                                                            "type": "Javascript Code",
+                                                            "name": "True",
+                                                            "code": "true",
+                                                            "project": "Foundations",
+                                                            "id": "701e1e55-2699-4379-b8f2-cc7b2a2a5dfc",
+                                                            "savedPayload": {
+                                                                "position": {
+                                                                    "x": 32601.373797891014,
+                                                                    "y": 30696.112887163516
+                                                                },
+                                                                "targetPosition": {
+                                                                    "x": 32452.19551358577,
+                                                                    "y": 30711.792156653664
+                                                                },
+                                                                "floatingObject": {
+                                                                    "isPinned": false,
+                                                                    "isFrozen": false,
+                                                                    "isCollapsed": false,
+                                                                    "angleToParent": 2,
+                                                                    "distanceToParent": 3,
+                                                                    "arrangementStyle": 0
+                                                                },
+                                                                "uiObject": {
+                                                                    "isRunning": false
+                                                                }
+                                                            }
+                                                        },
+                                                        "id": "89024934-2833-4fbc-b6b3-5fcc9b64dee2",
+                                                        "savedPayload": {
+                                                            "position": {
+                                                                "x": 32452.19551358577,
+                                                                "y": 30711.792156653664
+                                                            },
+                                                            "targetPosition": {
+                                                                "x": 32303.01722928053,
+                                                                "y": 30727.471426143813
+                                                            },
+                                                            "floatingObject": {
+                                                                "isPinned": false,
+                                                                "isFrozen": false,
+                                                                "isCollapsed": false,
+                                                                "angleToParent": 2,
+                                                                "distanceToParent": 3,
+                                                                "arrangementStyle": 0
+                                                            },
+                                                            "uiObject": {
+                                                                "isRunning": false
+                                                            }
+                                                        }
+                                                    }
+                                                ],
+                                                "id": "d3214854-f047-4f3b-9dbe-80c702b6e560",
+                                                "savedPayload": {
+                                                    "position": {
+                                                        "x": 32303.01722928053,
+                                                        "y": 30727.471426143813
+                                                    },
+                                                    "targetPosition": {
+                                                        "x": 32153.838944975287,
+                                                        "y": 30743.15069563396
+                                                    },
+                                                    "floatingObject": {
+                                                        "isPinned": false,
+                                                        "isFrozen": false,
+                                                        "isCollapsed": false,
+                                                        "angleToParent": 2,
+                                                        "distanceToParent": 3,
+                                                        "arrangementStyle": 0
+                                                    },
+                                                    "uiObject": {
+                                                        "isRunning": false
+                                                    }
+                                                }
+                                            }
+                                        ],
+                                        "announcements": [],
+                                        "id": "ab7da68c-e368-47b4-a437-727c1a62be12",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 32153.838944975287,
+                                                "y": 30743.15069563396
+                                            },
+                                            "targetPosition": {
+                                                "x": 32004.660660670044,
+                                                "y": 30758.82996512411
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            }
+                                        }
+                                    },
+                                    "id": "e42e44d3-57ec-445d-a55e-4449b1dafd35",
+                                    "savedPayload": {
+                                        "position": {
+                                            "x": 32004.660660670044,
+                                            "y": 30758.82996512411
+                                        },
+                                        "targetPosition": {
+                                            "x": 31855.482376364802,
+                                            "y": 30774.50923461426
+                                        },
+                                        "floatingObject": {
+                                            "isPinned": false,
+                                            "isFrozen": false,
+                                            "isCollapsed": false,
+                                            "angleToParent": 2,
+                                            "distanceToParent": 3,
+                                            "arrangementStyle": 0
+                                        },
+                                        "uiObject": {
+                                            "isRunning": false
+                                        },
+                                        "referenceParent": {
+                                            "type": "Market Order",
+                                            "name": "Open Buy Market Order",
+                                            "id": "7d6c3ac9-4869-4ff3-a9f2-2a6f8a31ccf3"
+                                        },
+                                        "referenceParentCombinedNodePath": [
+                                            [
+                                                "Low-Frequency",
+                                                "Trading Engine",
+                                                "Algorithmic-Trading",
+                                                "eb20f622-71bf-4479-a574-d2320e1d4bd1"
+                                            ],
+                                            [
+                                                "New Exchange Orders",
+                                                "Exchange Orders",
+                                                "Foundations",
+                                                "07f9794a-dea7-4075-bdea-00e4b90960a6"
+                                            ],
+                                            [
+                                                "New Market Buy Orders",
+                                                "Market Buy Orders",
+                                                "Foundations",
+                                                "a5823c2e-46a8-4824-a267-5606466e19db"
+                                            ],
+                                            [
+                                                "Open Buy Market Order",
+                                                "Market Order",
+                                                "Foundations",
+                                                "7d6c3ac9-4869-4ff3-a9f2-2a6f8a31ccf3"
+                                            ]
+                                        ]
+                                    }
+                                }
+                            ],
+                            "marketSellOrders": [],
+                            "limitBuyOrders": [],
+                            "limitSellOrders": [],
+                            "id": "ed7e89a1-0187-4e83-8370-bf969f55323f",
+                            "savedPayload": {
+                                "position": {
+                                    "x": 31855.482376364802,
+                                    "y": 30774.50923461426
+                                },
+                                "targetPosition": {
+                                    "x": 31706.30409205956,
+                                    "y": 30790.188504104408
+                                },
+                                "floatingObject": {
+                                    "isPinned": false,
+                                    "isFrozen": false,
+                                    "isCollapsed": false,
+                                    "angleToParent": 2,
+                                    "distanceToParent": 3,
+                                    "arrangementStyle": 0
+                                },
+                                "uiObject": {
+                                    "isRunning": false
+                                }
+                            }
+                        }
+                    ],
+                    "id": "a64e496b-dd1c-45ee-a664-c43fbb3638e1",
+                    "savedPayload": {
+                        "position": {
+                            "x": 31706.30409205956,
+                            "y": 30790.188504104408
+                        },
+                        "targetPosition": {
+                            "x": 31557.125807754317,
+                            "y": 30805.867773594557
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 2,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
+                "announcements": [],
+                "id": "a14d0369-6ecf-460c-a663-7b8409dd7ac9",
+                "savedPayload": {
+                    "position": {
+                        "x": 31557.125807754317,
+                        "y": 30805.867773594557
+                    },
+                    "targetPosition": {
+                        "x": 31314.420709441834,
+                        "y": 30982.2033492823
+                    },
+                    "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": false,
+                        "angleToParent": 1,
+                        "distanceToParent": 3,
+                        "arrangementStyle": 0
+                    },
+                    "uiObject": {
+                        "isRunning": false
+                    }
+                }
+            },
+            "manageStage": {
+                "type": "Manage Stage",
+                "name": "New Manage Stage",
+                "project": "Foundations",
+                "managedStopLoss": {
+                    "type": "Managed Stop Loss",
+                    "name": "New Managed Stop Loss",
+                    "project": "Foundations",
+                    "phases": [
+                        {
+                            "type": "Phase",
+                            "name": "New Phase",
+                            "project": "Foundations",
+                            "formula": {
+                                "type": "Formula",
+                                "name": "SL 20%",
+                                "code": "tradingEngine.tradingCurrent.position.entryTargetRate.value * 0.8",
+                                "project": "Foundations",
+                                "id": "dd97b0b0-750b-4c51-8412-66f37d5390af",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 32004.660660670044,
+                                        "y": 31205.576733440488
+                                    },
+                                    "targetPosition": {
+                                        "x": 31855.482376364802,
+                                        "y": 31189.89746395034
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 1,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    }
+                                }
+                            },
+                            "moveToPhaseEvents": [],
+                            "announcements": [],
+                            "id": "8ca7b970-7275-4d87-92bb-842374f1f000",
+                            "savedPayload": {
+                                "position": {
+                                    "x": 31855.482376364802,
+                                    "y": 31189.89746395034
+                                },
+                                "targetPosition": {
+                                    "x": 31706.30409205956,
+                                    "y": 31174.21819446019
+                                },
+                                "floatingObject": {
+                                    "isPinned": false,
+                                    "isFrozen": false,
+                                    "isCollapsed": false,
+                                    "angleToParent": 1,
+                                    "distanceToParent": 3,
+                                    "arrangementStyle": 0
+                                },
+                                "uiObject": {
+                                    "isRunning": false
+                                }
+                            }
+                        }
+                    ],
+                    "id": "0cb9f660-d3f4-4f8f-abf5-dd5437f4a8c9",
+                    "savedPayload": {
+                        "position": {
+                            "x": 31706.30409205956,
+                            "y": 31174.21819446019
+                        },
+                        "targetPosition": {
+                            "x": 31557.125807754317,
+                            "y": 31158.538924970042
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 2,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
+                "managedTakeProfit": {
+                    "type": "Managed Take Profit",
+                    "name": "New Managed Take Profit",
+                    "project": "Foundations",
+                    "phases": [
+                        {
+                            "type": "Phase",
+                            "name": "New Phase",
+                            "project": "Foundations",
+                            "formula": {
+                                "type": "Formula",
+                                "name": "100% or TREND CHANGE",
+                                "code": "if (chart.at30min.popularSMA.sma50 > chart.at30min.popularSMA.sma200) {tradingEngine.tradingCurrent.position.entryTargetRate.value * 2} else {chart.at30min.candle.close}\n",
+                                "project": "Foundations",
+                                "id": "c9fd9de5-2056-4fce-8cb2-aa8c648c1306",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 31740.15729713843,
+                                        "y": 31569.634380909218
+                                    },
+                                    "targetPosition": {
+                                        "x": 31679.14680067706,
+                                        "y": 31432.602562262826
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 1,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    }
+                                }
+                            },
+                            "moveToPhaseEvents": [],
+                            "announcements": [],
+                            "id": "9336dfb7-5f8b-4188-bce6-4fd2d78715fa",
+                            "savedPayload": {
+                                "position": {
+                                    "x": 31679.14680067706,
+                                    "y": 31432.602562262826
+                                },
+                                "targetPosition": {
+                                    "x": 31618.136304215688,
+                                    "y": 31295.570743616434
+                                },
+                                "floatingObject": {
+                                    "isPinned": false,
+                                    "isFrozen": false,
+                                    "isCollapsed": false,
+                                    "angleToParent": 1,
+                                    "distanceToParent": 3,
+                                    "arrangementStyle": 0
+                                },
+                                "uiObject": {
+                                    "isRunning": false
+                                }
+                            }
+                        }
+                    ],
+                    "id": "69957291-7780-41d9-a5ae-048f0f72d3c5",
+                    "savedPayload": {
+                        "position": {
+                            "x": 31618.136304215688,
+                            "y": 31295.570743616434
+                        },
+                        "targetPosition": {
+                            "x": 31557.125807754317,
+                            "y": 31158.538924970042
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 2,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
+                "announcements": [],
+                "id": "cbdb068f-df4c-4310-9253-e6fdb4953c6d",
+                "savedPayload": {
+                    "position": {
+                        "x": 31557.125807754317,
+                        "y": 31158.538924970042
+                    },
+                    "targetPosition": {
+                        "x": 31314.420709441834,
+                        "y": 30982.2033492823
+                    },
+                    "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": false,
+                        "angleToParent": 1,
+                        "distanceToParent": 3,
+                        "arrangementStyle": 0
+                    },
+                    "uiObject": {
+                        "isRunning": false
+                    }
+                }
+            },
+            "closeStage": {
+                "type": "Close Stage",
+                "name": "New Close Stage",
+                "config": "{\n\"roundingErrorCorrectionFactor\": 1.01 \n}",
+                "project": "Foundations",
+                "initialTargets": {
+                    "type": "Initial Targets",
+                    "name": "New Initial Targets",
+                    "project": "Foundations",
+                    "targetRate": {
+                        "type": "Target Rate",
+                        "name": "New Target Rate",
+                        "project": "Foundations",
+                        "formula": {
+                            "type": "Formula",
+                            "name": "30MIN Close",
+                            "code": "chart.at30min.candle.close",
+                            "project": "Foundations",
+                            "id": "00643ff6-e2e0-496f-810c-f6cbbb490210",
+                            "savedPayload": {
+                                "position": {
+                                    "x": 31453.641546659674,
+                                    "y": 31637.18589192414
+                                },
+                                "targetPosition": {
+                                    "x": 31353.271955705844,
+                                    "y": 31525.714168102528
+                                },
+                                "floatingObject": {
+                                    "isPinned": false,
+                                    "isFrozen": false,
+                                    "isCollapsed": false,
+                                    "angleToParent": 1,
+                                    "distanceToParent": 3,
+                                    "arrangementStyle": 0
+                                },
+                                "uiObject": {
+                                    "isRunning": false
+                                }
+                            }
+                        },
+                        "id": "352e4766-bca1-4e70-9f50-11265ea1d445",
+                        "savedPayload": {
+                            "position": {
+                                "x": 31353.271955705844,
+                                "y": 31525.714168102528
+                            },
+                            "targetPosition": {
+                                "x": 31252.902364752015,
+                                "y": 31414.242444280917
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "targetSizeInBaseAsset": {
+                        "type": "Target Size In Base Asset",
+                        "name": "New Target Size In Base Asset",
+                        "project": "Foundations",
+                        "formula": {
+                            "type": "Formula",
+                            "name": "BASE ASSET",
+                            "code": "tradingEngine.tradingCurrent.strategyOpenStage.stageBaseAsset.sizeFilled.value",
+                            "project": "Foundations",
+                            "id": "6d97f79a-c297-440e-ab9b-4fd2d1b72af2",
+                            "savedPayload": {
+                                "position": {
+                                    "x": 31160.19726643953,
+                                    "y": 31699.559399169466
+                                },
+                                "targetPosition": {
+                                    "x": 31206.549815595772,
+                                    "y": 31556.90092172519
+                                },
+                                "floatingObject": {
+                                    "isPinned": false,
+                                    "isFrozen": false,
+                                    "isCollapsed": false,
+                                    "angleToParent": 1,
+                                    "distanceToParent": 3,
+                                    "arrangementStyle": 0
+                                },
+                                "uiObject": {
+                                    "isRunning": false
+                                }
+                            }
+                        },
+                        "id": "ecfed49d-35ad-4b0a-a8ce-b56fc0b06e41",
+                        "savedPayload": {
+                            "position": {
+                                "x": 31206.549815595772,
+                                "y": 31556.90092172519
+                            },
+                            "targetPosition": {
+                                "x": 31252.902364752015,
+                                "y": 31414.242444280917
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "id": "6dc18117-a07a-4025-a2ca-372d0b94f8c9",
+                    "savedPayload": {
+                        "position": {
+                            "x": 31252.902364752015,
+                            "y": 31414.242444280917
+                        },
+                        "targetPosition": {
+                            "x": 31221.71561112935,
+                            "y": 31267.520304170845
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 2,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
+                "closeExecution": {
+                    "type": "Close Execution",
+                    "name": "New Close Execution",
+                    "project": "Foundations",
+                    "executionAlgorithms": [
+                        {
+                            "type": "Execution Algorithm",
+                            "name": "New Execution Algorithm",
+                            "config": "{\n\"percentageOfStageTargetSize\": 100 \n}",
+                            "project": "Foundations",
+                            "marketBuyOrders": [],
+                            "marketSellOrders": [
+                                {
+                                    "type": "Market Sell Order",
+                                    "name": "Close Sell Market Order",
+                                    "config": "{\n\"percentageOfAlgorithmSize\": 100, \n\"spawnMultipleOrders\": false \n}",
+                                    "project": "Foundations",
+                                    "createOrderEvent": {
+                                        "type": "Create Order Event",
+                                        "name": "New Create Order Event",
+                                        "project": "Foundations",
+                                        "situations": [
+                                            {
+                                                "type": "Situation",
+                                                "name": "New Situation",
+                                                "project": "Foundations",
+                                                "conditions": [
+                                                    {
+                                                        "type": "Condition",
+                                                        "name": "New Condition",
+                                                        "project": "Foundations",
+                                                        "javascriptCode": {
+                                                            "type": "Javascript Code",
+                                                            "name": "True",
+                                                            "code": "true",
+                                                            "project": "Foundations",
+                                                            "id": "c8078e6f-d020-4034-8575-638e290f364e",
+                                                            "savedPayload": {
+                                                                "position": {
+                                                                    "x": 30441.413544378076,
+                                                                    "y": 31970.10744084765
+                                                                },
+                                                                "targetPosition": {
+                                                                    "x": 30552.885268199687,
+                                                                    "y": 31869.73784989382
+                                                                },
+                                                                "floatingObject": {
+                                                                    "isPinned": false,
+                                                                    "isFrozen": false,
+                                                                    "isCollapsed": false,
+                                                                    "angleToParent": 1,
+                                                                    "distanceToParent": 3,
+                                                                    "arrangementStyle": 0
+                                                                },
+                                                                "uiObject": {
+                                                                    "isRunning": false
+                                                                }
+                                                            }
+                                                        },
+                                                        "id": "6d9d135a-3f19-4bfc-ae62-34623a7fadf7",
+                                                        "savedPayload": {
+                                                            "position": {
+                                                                "x": 30552.885268199687,
+                                                                "y": 31869.73784989382
+                                                            },
+                                                            "targetPosition": {
+                                                                "x": 30664.356992021298,
+                                                                "y": 31769.36825893999
+                                                            },
+                                                            "floatingObject": {
+                                                                "isPinned": false,
+                                                                "isFrozen": false,
+                                                                "isCollapsed": false,
+                                                                "angleToParent": 1,
+                                                                "distanceToParent": 3,
+                                                                "arrangementStyle": 0
+                                                            },
+                                                            "uiObject": {
+                                                                "isRunning": false
+                                                            }
+                                                        }
+                                                    }
+                                                ],
+                                                "id": "25e55a3a-d00e-4bac-b817-433553612136",
+                                                "savedPayload": {
+                                                    "position": {
+                                                        "x": 30664.356992021298,
+                                                        "y": 31769.36825893999
+                                                    },
+                                                    "targetPosition": {
+                                                        "x": 30775.82871584291,
+                                                        "y": 31668.99866798616
+                                                    },
+                                                    "floatingObject": {
+                                                        "isPinned": false,
+                                                        "isFrozen": false,
+                                                        "isCollapsed": false,
+                                                        "angleToParent": 1,
+                                                        "distanceToParent": 3,
+                                                        "arrangementStyle": 0
+                                                    },
+                                                    "uiObject": {
+                                                        "isRunning": false
+                                                    }
+                                                }
+                                            }
+                                        ],
+                                        "announcements": [],
+                                        "id": "50338602-1279-4f56-8c5f-085eed86711e",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 30775.82871584291,
+                                                "y": 31668.99866798616
+                                            },
+                                            "targetPosition": {
+                                                "x": 30887.30043966452,
+                                                "y": 31568.629077032332
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 1,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            }
+                                        }
+                                    },
+                                    "id": "2b65b929-b099-4374-ab17-041d4c607966",
+                                    "savedPayload": {
+                                        "position": {
+                                            "x": 30887.30043966452,
+                                            "y": 31568.629077032332
+                                        },
+                                        "targetPosition": {
+                                            "x": 30998.77216348613,
+                                            "y": 31468.259486078503
+                                        },
+                                        "floatingObject": {
+                                            "isPinned": false,
+                                            "isFrozen": false,
+                                            "isCollapsed": false,
+                                            "angleToParent": 1,
+                                            "distanceToParent": 3,
+                                            "arrangementStyle": 0
+                                        },
+                                        "uiObject": {
+                                            "isRunning": false
+                                        },
+                                        "referenceParent": {
+                                            "type": "Market Order",
+                                            "name": "Close Sell Market Order",
+                                            "id": "8e404329-d41f-41e0-ad5a-c84ee1fa2604"
+                                        },
+                                        "referenceParentCombinedNodePath": [
+                                            [
+                                                "Low-Frequency",
+                                                "Trading Engine",
+                                                "Algorithmic-Trading",
+                                                "eb20f622-71bf-4479-a574-d2320e1d4bd1"
+                                            ],
+                                            [
+                                                "New Exchange Orders",
+                                                "Exchange Orders",
+                                                "Foundations",
+                                                "07f9794a-dea7-4075-bdea-00e4b90960a6"
+                                            ],
+                                            [
+                                                "New Market Sell Orders",
+                                                "Market Sell Orders",
+                                                "Foundations",
+                                                "0cb8959b-8c1b-45f2-aa32-11c1efa63cc1"
+                                            ],
+                                            [
+                                                "Close Sell Market Order",
+                                                "Market Order",
+                                                "Foundations",
+                                                "8e404329-d41f-41e0-ad5a-c84ee1fa2604"
+                                            ]
+                                        ]
+                                    }
+                                }
+                            ],
+                            "limitBuyOrders": [],
+                            "limitSellOrders": [],
+                            "id": "ecfb433b-2137-471e-a905-cff5a9e85890",
+                            "savedPayload": {
+                                "position": {
+                                    "x": 30998.77216348613,
+                                    "y": 31468.259486078503
+                                },
+                                "targetPosition": {
+                                    "x": 31110.24388730774,
+                                    "y": 31367.889895124674
+                                },
+                                "floatingObject": {
+                                    "isPinned": false,
+                                    "isFrozen": false,
+                                    "isCollapsed": false,
+                                    "angleToParent": 1,
+                                    "distanceToParent": 3,
+                                    "arrangementStyle": 0
+                                },
+                                "uiObject": {
+                                    "isRunning": false
+                                }
+                            }
+                        }
+                    ],
+                    "id": "58b9be76-45d6-4496-a0eb-653d48c490db",
+                    "savedPayload": {
+                        "position": {
+                            "x": 31110.24388730774,
+                            "y": 31367.889895124674
+                        },
+                        "targetPosition": {
+                            "x": 31221.71561112935,
+                            "y": 31267.520304170845
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 2,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
+                "announcements": [],
+                "id": "91992d2e-ed1d-4f66-84cb-6bb66bd7ce5d",
+                "savedPayload": {
+                    "position": {
+                        "x": 31221.71561112935,
+                        "y": 31267.520304170845
+                    },
+                    "targetPosition": {
+                        "x": 31314.420709441834,
+                        "y": 30982.2033492823
+                    },
+                    "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": false,
+                        "angleToParent": 1,
+                        "distanceToParent": 3,
+                        "arrangementStyle": 0
+                    },
+                    "uiObject": {
+                        "isRunning": false
+                    }
+                }
+            },
+            "id": "87848b30-ccbe-471c-8d9d-71222416794b",
+            "savedPayload": {
+                "position": {
+                    "x": 31314.420709441834,
+                    "y": 30982.2033492823
+                },
+                "targetPosition": {
+                    "x": 31014.420709441834,
+                    "y": 30982.2033492823
+                },
+                "floatingObject": {
+                    "isPinned": false,
+                    "isFrozen": false,
+                    "isCollapsed": false,
+                    "angleToParent": 1,
+                    "distanceToParent": 3,
+                    "arrangementStyle": 0
+                },
+                "uiObject": {
+                    "isRunning": false
+                }
+            }
+        }
+    ],
+    "id": "032c12de-f900-4dba-a244-1dc036048a69",
+    "savedPayload": {
+        "position": {
+            "x": 31014.420709441834,
+            "y": 30982.2033492823
+        },
+        "targetPosition": {
+            "x": 31014.420709441834,
+            "y": 30982.2033492823
+        },
+        "floatingObject": {
+            "isPinned": false,
+            "isFrozen": false,
+            "isCollapsed": true,
+            "angleToParent": 1,
+            "distanceToParent": 3,
+            "arrangementStyle": 0
+        },
+        "uiObject": {
+            "isRunning": false
+        }
+    }
+}

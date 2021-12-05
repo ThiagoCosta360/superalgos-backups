@@ -1,0 +1,3541 @@
+{
+    "type": "Trading Bot Instance",
+    "name": "Low Frequency",
+    "project": "Foundations",
+    "processes": [
+        {
+            "type": "Trading Process Instance",
+            "name": "Low Frequency Trading",
+            "project": "Foundations",
+            "session": {
+                "type": "Backtesting Session",
+                "name": "SMA 200/50-01hs",
+                "config": "{\"folderName\":\"SMA-200/50\"}",
+                "project": "Foundations",
+                "tradingParameters": {
+                    "type": "Trading Parameters",
+                    "name": "New Trading Parameters",
+                    "project": "Foundations",
+                    "sessionBaseAsset": {
+                        "type": "Session Base Asset",
+                        "name": "",
+                        "config": "{\n    \"initialBalance\": 0\n}",
+                        "project": "Foundations",
+                        "id": "3d7103c3-2d2e-4e46-85db-e00bba828a39",
+                        "savedPayload": {
+                            "position": {
+                                "x": 28291.90711997685,
+                                "y": 30842.48478700282
+                            },
+                            "targetPosition": {
+                                "x": 28428.104269898715,
+                                "y": 31109.78674425933
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "sessionQuotedAsset": {
+                        "type": "Session Quoted Asset",
+                        "name": "",
+                        "config": "{\n    \"initialBalance\": 1000\n}",
+                        "project": "Foundations",
+                        "id": "b481888e-0809-4e28-beb6-b9b04845004e",
+                        "savedPayload": {
+                            "position": {
+                                "x": 28381.173930386645,
+                                "y": 30813.48024208079
+                            },
+                            "targetPosition": {
+                                "x": 28428.104269898715,
+                                "y": 31109.78674425933
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "timeRange": {
+                        "type": "Time Range",
+                        "name": "New Time Range",
+                        "config": "{\n    \"initialDatetime\": \"2020-01-02\",\n    \"finalDatetime\": \"2020-12-31\"\n}",
+                        "project": "Foundations",
+                        "id": "dd89d8da-e148-4bf8-8012-136a4fcd248c",
+                        "savedPayload": {
+                            "position": {
+                                "x": 28475.034609410784,
+                                "y": 30813.48024208079
+                            },
+                            "targetPosition": {
+                                "x": 28428.104269898715,
+                                "y": 31109.78674425933
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "timeFrame": {
+                        "type": "Time Frame",
+                        "name": "New Time Frame",
+                        "config": "{\n    \"label\": \"01-hs\"\n}",
+                        "project": "Foundations",
+                        "id": "b6f183fc-0f11-4460-b515-33f33b749371",
+                        "savedPayload": {
+                            "position": {
+                                "x": 28564.30141982058,
+                                "y": 30842.48478700282
+                            },
+                            "targetPosition": {
+                                "x": 28428.104269898715,
+                                "y": 31109.78674425933
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "slippage": {
+                        "type": "Slippage",
+                        "name": "New Slippage",
+                        "config": "{\n    \"marketOrderRate\": 0,\n    \"stopLoss\": 0,\n    \"takeProfit\": 0\n}",
+                        "project": "Foundations",
+                        "id": "ffa9f2fe-b581-44ab-b491-fb9484214112",
+                        "savedPayload": {
+                            "position": {
+                                "x": 28640.23630425468,
+                                "y": 30897.654709903367
+                            },
+                            "targetPosition": {
+                                "x": 28428.104269898715,
+                                "y": 31109.78674425933
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "feeStructure": {
+                        "type": "Fee Structure",
+                        "name": "New Fee Structure",
+                        "config": "{\n    \"maker\": 0.1,\n    \"taker\": 0.1\n}",
+                        "project": "Foundations",
+                        "id": "bc75ed57-0dea-4c00-925f-a5d2b0ba500b",
+                        "savedPayload": {
+                            "position": {
+                                "x": 28695.406227155225,
+                                "y": 30973.589594337467
+                            },
+                            "targetPosition": {
+                                "x": 28428.104269898715,
+                                "y": 31109.78674425933
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "snapshots": {
+                        "type": "Snapshots",
+                        "name": "New Snapshots",
+                        "config": "{ \n\"strategy\": true,\n\"position\": true\n}",
+                        "project": "Foundations",
+                        "id": "7b77587a-900f-4692-b5e5-a7387ebf5a0a",
+                        "savedPayload": {
+                            "position": {
+                                "x": 28724.410772077255,
+                                "y": 31062.85640474726
+                            },
+                            "targetPosition": {
+                                "x": 28428.104269898715,
+                                "y": 31109.78674425933
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "heartbeats": {
+                        "type": "Heartbeats",
+                        "name": "New Heartbeats",
+                        "config": "{\n    \"date\": true,\n    \"candleIndex\": false\n}",
+                        "project": "Foundations",
+                        "id": "84151ce2-db94-449d-b506-a9971c80f3a6",
+                        "savedPayload": {
+                            "position": {
+                                "x": 28724.410772077255,
+                                "y": 31156.7170837714
+                            },
+                            "targetPosition": {
+                                "x": 28428.104269898715,
+                                "y": 31109.78674425933
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "userDefinedParameters": {
+                        "type": "User Defined Parameters",
+                        "name": "New User Defined Parameters",
+                        "config": "{\n    \"param1Name\": \"A text string value example\",\n    \"param2Name\": 0\n}",
+                        "project": "Foundations",
+                        "id": "10b69ceb-f570-4891-9b95-39570964ce50",
+                        "savedPayload": {
+                            "position": {
+                                "x": 28695.406227155225,
+                                "y": 31245.983894181194
+                            },
+                            "targetPosition": {
+                                "x": 28428.104269898715,
+                                "y": 31109.78674425933
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "id": "5dba580a-bbc4-46b8-addc-897b707d8f13",
+                    "savedPayload": {
+                        "position": {
+                            "x": 28428.104269898715,
+                            "y": 31109.78674425933
+                        },
+                        "targetPosition": {
+                            "x": 28215.97223554275,
+                            "y": 31321.918778615294
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
+                "tradingSystemReference": {
+                    "type": "Trading System Reference",
+                    "name": "SMA 200/50",
+                    "project": "Foundations",
+                    "id": "f4adf629-0a2e-46a5-9421-fd644dff84e8",
+                    "savedPayload": {
+                        "position": {
+                            "x": 28515.97223554275,
+                            "y": 31321.918778615294
+                        },
+                        "targetPosition": {
+                            "x": 28215.97223554275,
+                            "y": 31321.918778615294
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        },
+                        "referenceParent": {
+                            "type": "Trading System",
+                            "name": "SMA 200/50",
+                            "id": "fd68fc64-2614-4a66-a858-cf50a4db398f"
+                        },
+                        "referenceParentCombinedNodePath": [
+                            [
+                                "SMA 200/50",
+                                "Trading System",
+                                "Foundations",
+                                "fd68fc64-2614-4a66-a858-cf50a4db398f"
+                            ]
+                        ]
+                    }
+                },
+                "tradingEngineReference": {
+                    "type": "Trading Engine Reference",
+                    "name": "Low-Frequency",
+                    "project": "Foundations",
+                    "id": "243c26af-8006-4a9b-ab1e-7fb65e166955",
+                    "savedPayload": {
+                        "position": {
+                            "x": 28428.104269898715,
+                            "y": 31534.050812971258
+                        },
+                        "targetPosition": {
+                            "x": 28215.97223554275,
+                            "y": 31321.918778615294
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        },
+                        "referenceParent": {
+                            "type": "Trading Engine",
+                            "name": "Low-Frequency",
+                            "id": "eb20f622-71bf-4479-a574-d2320e1d4bd1"
+                        },
+                        "referenceParentCombinedNodePath": [
+                            [
+                                "Low-Frequency",
+                                "Trading Engine",
+                                "Foundations",
+                                "eb20f622-71bf-4479-a574-d2320e1d4bd1"
+                            ]
+                        ]
+                    }
+                },
+                "id": "f100a659-3114-4ba4-96c5-7e3add685d6d",
+                "savedPayload": {
+                    "position": {
+                        "x": 27840.77197578475,
+                        "y": 30951.126259584806
+                    },
+                    "targetPosition": {
+                        "x": 27956.203774157166,
+                        "y": 31268.27251910005
+                    },
+                    "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": true,
+                        "angleToParent": 2,
+                        "distanceToParent": 3,
+                        "arrangementStyle": 0
+                    },
+                    "uiObject": {
+                        "isRunning": false
+                    }
+                }
+            },
+            "id": "0107dff2-e0a8-4664-9b7e-d4097dad0f18",
+            "savedPayload": {
+                "position": {
+                    "x": 27956.203774157166,
+                    "y": 31268.27251910005
+                },
+                "targetPosition": {
+                    "x": 28071.63557252958,
+                    "y": 31585.418778615294
+                },
+                "floatingObject": {
+                    "isPinned": false,
+                    "isFrozen": false,
+                    "isCollapsed": false,
+                    "angleToParent": 1,
+                    "distanceToParent": 2,
+                    "arrangementStyle": 0
+                },
+                "uiObject": {
+                    "isRunning": false
+                },
+                "referenceParent": {
+                    "type": "Process Definition",
+                    "name": "Trading",
+                    "id": "a8c8d761-96e5-4a86-9285-6c3881d61442"
+                },
+                "referenceParentCombinedNodePath": [
+                    [
+                        "Masters",
+                        "Trading Mine",
+                        "Foundations",
+                        "6a54eece-4582-4cda-a854-1cd805e00fed"
+                    ],
+                    [
+                        "Low Frequency",
+                        "Trading Bot",
+                        "Foundations",
+                        "8c7f3687-b5ae-4a45-bda1-751cb2c55995"
+                    ],
+                    [
+                        "Trading",
+                        "Process Definition",
+                        "Foundations",
+                        "a8c8d761-96e5-4a86-9285-6c3881d61442"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Trading Process Instance",
+            "name": "Low Frequency Trading",
+            "project": "Foundations",
+            "session": {
+                "type": "Backtesting Session",
+                "name": "SMA 200/50-03hs",
+                "config": "{\n    \"folderName\": \"SMA-200/50\"\n}",
+                "project": "Foundations",
+                "tradingParameters": {
+                    "type": "Trading Parameters",
+                    "name": "New Trading Parameters",
+                    "project": "Foundations",
+                    "sessionBaseAsset": {
+                        "type": "Session Base Asset",
+                        "name": "",
+                        "config": "{\n    \"initialBalance\": 0\n}",
+                        "project": "Foundations",
+                        "id": "5adc8051-5c81-4d21-b7d8-0fe00ed0046c",
+                        "savedPayload": {
+                            "position": {
+                                "x": 28442.06601257302,
+                                "y": 31245.684204658166
+                            },
+                            "targetPosition": {
+                                "x": 28426.365225700138,
+                                "y": 31545.273065084537
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "sessionQuotedAsset": {
+                        "type": "Session Quoted Asset",
+                        "name": "",
+                        "config": "{\n    \"initialBalance\": 1000\n}",
+                        "project": "Foundations",
+                        "id": "78898783-f428-4c6e-bacc-7b9efe1349cd",
+                        "savedPayload": {
+                            "position": {
+                                "x": 28533.87561056373,
+                                "y": 31265.198937135377
+                            },
+                            "targetPosition": {
+                                "x": 28426.365225700138,
+                                "y": 31545.273065084537
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "timeRange": {
+                        "type": "Time Range",
+                        "name": "New Time Range",
+                        "config": "{\n    \"initialDatetime\": \"2020-01-02\",\n    \"finalDatetime\": \"2020-12-31\"\n}",
+                        "project": "Foundations",
+                        "id": "505b9e72-5688-4e36-b402-13b026a0501a",
+                        "savedPayload": {
+                            "position": {
+                                "x": 28615.16134301509,
+                                "y": 31312.129276647447
+                            },
+                            "targetPosition": {
+                                "x": 28426.365225700138,
+                                "y": 31545.273065084537
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "timeFrame": {
+                        "type": "Time Frame",
+                        "name": "New Time Frame",
+                        "config": "{\n    \"label\": \"03-hs\"\n}",
+                        "project": "Foundations",
+                        "id": "b69e5ec9-ec97-48f8-954d-5c107185538b",
+                        "savedPayload": {
+                            "position": {
+                                "x": 28677.966396083764,
+                                "y": 31381.88135458003
+                            },
+                            "targetPosition": {
+                                "x": 28426.365225700138,
+                                "y": 31545.273065084537
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "slippage": {
+                        "type": "Slippage",
+                        "name": "New Slippage",
+                        "config": "{\n    \"marketOrderRate\": 0,\n    \"stopLoss\": 0,\n    \"takeProfit\": 0\n}",
+                        "project": "Foundations",
+                        "id": "82a90b9e-3423-49a6-a699-d29d70c80426",
+                        "savedPayload": {
+                            "position": {
+                                "x": 28716.14297358686,
+                                "y": 31467.62735155378
+                            },
+                            "targetPosition": {
+                                "x": 28426.365225700138,
+                                "y": 31545.273065084537
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "feeStructure": {
+                        "type": "Fee Structure",
+                        "name": "New Fee Structure",
+                        "config": "{\n    \"maker\": 0.1,\n    \"taker\": 0.1\n}",
+                        "project": "Foundations",
+                        "id": "12910208-adbe-4ad1-95ac-5ab80053dd37",
+                        "savedPayload": {
+                            "position": {
+                                "x": 28725.95408612651,
+                                "y": 31560.97385195742
+                            },
+                            "targetPosition": {
+                                "x": 28426.365225700138,
+                                "y": 31545.273065084537
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "snapshots": {
+                        "type": "Snapshots",
+                        "name": "New Snapshots",
+                        "config": "{ \n\"strategy\": true,\n\"position\": true\n}",
+                        "project": "Foundations",
+                        "id": "6c9fc499-8d75-47d4-9965-d18420437e09",
+                        "savedPayload": {
+                            "position": {
+                                "x": 28706.439353649297,
+                                "y": 31652.78344994813
+                            },
+                            "targetPosition": {
+                                "x": 28426.365225700138,
+                                "y": 31545.273065084537
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "heartbeats": {
+                        "type": "Heartbeats",
+                        "name": "New Heartbeats",
+                        "config": "{\n    \"date\": true,\n    \"candleIndex\": false\n}",
+                        "project": "Foundations",
+                        "id": "9c97b194-809d-4d2b-bd6b-59b864cfc26f",
+                        "savedPayload": {
+                            "position": {
+                                "x": 28659.509014137227,
+                                "y": 31734.06918239949
+                            },
+                            "targetPosition": {
+                                "x": 28426.365225700138,
+                                "y": 31545.273065084537
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "userDefinedParameters": {
+                        "type": "User Defined Parameters",
+                        "name": "New User Defined Parameters",
+                        "config": "{\n    \"param1Name\": \"A text string value example\",\n    \"param2Name\": 0\n}",
+                        "project": "Foundations",
+                        "id": "bb3b8f5d-b209-4a23-9af7-ef528953f981",
+                        "savedPayload": {
+                            "position": {
+                                "x": 28589.756936204645,
+                                "y": 31796.874235468164
+                            },
+                            "targetPosition": {
+                                "x": 28426.365225700138,
+                                "y": 31545.273065084537
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "id": "8dcd6b5e-f30b-42ed-9759-c8cf80c3c5f7",
+                    "savedPayload": {
+                        "position": {
+                            "x": 28426.365225700138,
+                            "y": 31545.273065084537
+                        },
+                        "targetPosition": {
+                            "x": 28136.587477813417,
+                            "y": 31622.918778615294
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
+                "tradingSystemReference": {
+                    "type": "Trading System Reference",
+                    "name": "SMA 200/50",
+                    "project": "Foundations",
+                    "id": "04219a53-2e35-4fac-a86e-670a42523a2d",
+                    "savedPayload": {
+                        "position": {
+                            "x": 28396.39509894875,
+                            "y": 31772.918778615294
+                        },
+                        "targetPosition": {
+                            "x": 28136.587477813417,
+                            "y": 31622.918778615294
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        },
+                        "referenceParent": {
+                            "type": "Trading System",
+                            "name": "SMA 200/50",
+                            "id": "fd68fc64-2614-4a66-a858-cf50a4db398f"
+                        },
+                        "referenceParentCombinedNodePath": [
+                            [
+                                "SMA 200/50",
+                                "Trading System",
+                                "Foundations",
+                                "fd68fc64-2614-4a66-a858-cf50a4db398f"
+                            ]
+                        ]
+                    }
+                },
+                "tradingEngineReference": {
+                    "type": "Trading Engine Reference",
+                    "name": "Low-Frequency",
+                    "project": "Foundations",
+                    "id": "37470834-057c-4da6-aeb2-da805229683f",
+                    "savedPayload": {
+                        "position": {
+                            "x": 28214.233191344174,
+                            "y": 31912.696526502015
+                        },
+                        "targetPosition": {
+                            "x": 28136.587477813417,
+                            "y": 31622.918778615294
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        },
+                        "referenceParent": {
+                            "type": "Trading Engine",
+                            "name": "Low-Frequency",
+                            "id": "eb20f622-71bf-4479-a574-d2320e1d4bd1"
+                        },
+                        "referenceParentCombinedNodePath": [
+                            [
+                                "Low-Frequency",
+                                "Trading Engine",
+                                "Foundations",
+                                "eb20f622-71bf-4479-a574-d2320e1d4bd1"
+                            ]
+                        ]
+                    }
+                },
+                "id": "f66c9401-89a6-4f43-9725-68a0b73405d9",
+                "savedPayload": {
+                    "position": {
+                        "x": 28302.499169274408,
+                        "y": 30951.126259584806
+                    },
+                    "targetPosition": {
+                        "x": 28187.067370901994,
+                        "y": 31268.27251910005
+                    },
+                    "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": true,
+                        "angleToParent": 2,
+                        "distanceToParent": 3,
+                        "arrangementStyle": 0
+                    },
+                    "uiObject": {
+                        "isRunning": false
+                    }
+                }
+            },
+            "id": "9ce00563-30ae-4fc6-8371-d047785926b4",
+            "savedPayload": {
+                "position": {
+                    "x": 28187.067370901994,
+                    "y": 31268.27251910005
+                },
+                "targetPosition": {
+                    "x": 28071.63557252958,
+                    "y": 31585.418778615294
+                },
+                "floatingObject": {
+                    "isPinned": false,
+                    "isFrozen": false,
+                    "isCollapsed": false,
+                    "angleToParent": 1,
+                    "distanceToParent": 2,
+                    "arrangementStyle": 0
+                },
+                "uiObject": {
+                    "isRunning": false
+                },
+                "referenceParent": {
+                    "type": "Process Definition",
+                    "name": "Trading",
+                    "id": "a8c8d761-96e5-4a86-9285-6c3881d61442"
+                },
+                "referenceParentCombinedNodePath": [
+                    [
+                        "Masters",
+                        "Trading Mine",
+                        "Foundations",
+                        "6a54eece-4582-4cda-a854-1cd805e00fed"
+                    ],
+                    [
+                        "Low Frequency",
+                        "Trading Bot",
+                        "Foundations",
+                        "8c7f3687-b5ae-4a45-bda1-751cb2c55995"
+                    ],
+                    [
+                        "Trading",
+                        "Process Definition",
+                        "Foundations",
+                        "a8c8d761-96e5-4a86-9285-6c3881d61442"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Trading Process Instance",
+            "name": "Low Frequency Trading",
+            "project": "Foundations",
+            "session": {
+                "type": "Backtesting Session",
+                "name": "SMA 200/50-04hs",
+                "config": "{\"folderName\":\"SMA-200/50\"}",
+                "project": "Foundations",
+                "tradingParameters": {
+                    "type": "Trading Parameters",
+                    "name": "New Trading Parameters",
+                    "project": "Foundations",
+                    "sessionBaseAsset": {
+                        "type": "Session Base Asset",
+                        "name": "",
+                        "config": "{\n    \"initialBalance\": 0\n}",
+                        "project": "Foundations",
+                        "id": "2583c4bc-cc87-4d1b-9df6-17b8fe03aa1b",
+                        "savedPayload": {
+                            "position": {
+                                "x": 28433.94140256716,
+                                "y": 31461.865892438676
+                            },
+                            "targetPosition": {
+                                "x": 28341.23630425468,
+                                "y": 31747.18284732722
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "sessionQuotedAsset": {
+                        "type": "Session Quoted Asset",
+                        "name": "",
+                        "config": "{\n    \"initialBalance\": 1000\n}",
+                        "project": "Foundations",
+                        "id": "7af27296-29e5-4037-8314-899f651ab338",
+                        "savedPayload": {
+                            "position": {
+                                "x": 28517.57187994242,
+                                "y": 31504.47774901474
+                            },
+                            "targetPosition": {
+                                "x": 28341.23630425468,
+                                "y": 31747.18284732722
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "timeRange": {
+                        "type": "Time Range",
+                        "name": "New Time Range",
+                        "config": "{\n    \"initialDatetime\": \"2020-01-02\",\n    \"finalDatetime\": \"2020-12-31\"\n}",
+                        "project": "Foundations",
+                        "id": "ac73be64-2300-4d03-90b4-ea3d1783d164",
+                        "savedPayload": {
+                            "position": {
+                                "x": 28583.94140256716,
+                                "y": 31570.84727163948
+                            },
+                            "targetPosition": {
+                                "x": 28341.23630425468,
+                                "y": 31747.18284732722
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "timeFrame": {
+                        "type": "Time Frame",
+                        "name": "New Time Frame",
+                        "config": "{\n    \"label\": \"04-hs\"\n}",
+                        "project": "Foundations",
+                        "id": "4044aa05-fe95-4877-9974-4424088167ea",
+                        "savedPayload": {
+                            "position": {
+                                "x": 28626.553259143224,
+                                "y": 31654.47774901474
+                            },
+                            "targetPosition": {
+                                "x": 28341.23630425468,
+                                "y": 31747.18284732722
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "slippage": {
+                        "type": "Slippage",
+                        "name": "New Slippage",
+                        "config": "{\n    \"marketOrderRate\": 0,\n    \"stopLoss\": 0,\n    \"takeProfit\": 0\n}",
+                        "project": "Foundations",
+                        "id": "a11e71eb-ea7d-4b11-9cd7-f878c89ba7fb",
+                        "savedPayload": {
+                            "position": {
+                                "x": 28641.23630425468,
+                                "y": 31747.18284732722
+                            },
+                            "targetPosition": {
+                                "x": 28341.23630425468,
+                                "y": 31747.18284732722
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "feeStructure": {
+                        "type": "Fee Structure",
+                        "name": "New Fee Structure",
+                        "config": "{\n    \"maker\": 0.1,\n    \"taker\": 0.1\n}",
+                        "project": "Foundations",
+                        "id": "9be78cc6-3db2-4f32-aec5-a79734d0990c",
+                        "savedPayload": {
+                            "position": {
+                                "x": 28626.553259143224,
+                                "y": 31839.887945639704
+                            },
+                            "targetPosition": {
+                                "x": 28341.23630425468,
+                                "y": 31747.18284732722
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "snapshots": {
+                        "type": "Snapshots",
+                        "name": "New Snapshots",
+                        "config": "{ \n\"strategy\": true,\n\"position\": true\n}",
+                        "project": "Foundations",
+                        "id": "cf33d641-afe2-4486-a4d4-b30912794ce7",
+                        "savedPayload": {
+                            "position": {
+                                "x": 28583.94140256716,
+                                "y": 31923.518423014964
+                            },
+                            "targetPosition": {
+                                "x": 28341.23630425468,
+                                "y": 31747.18284732722
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "heartbeats": {
+                        "type": "Heartbeats",
+                        "name": "New Heartbeats",
+                        "config": "{\n    \"date\": true,\n    \"candleIndex\": false\n}",
+                        "project": "Foundations",
+                        "id": "5f56536f-3779-4222-93cc-92ffb96e81e9",
+                        "savedPayload": {
+                            "position": {
+                                "x": 28517.57187994242,
+                                "y": 31989.887945639704
+                            },
+                            "targetPosition": {
+                                "x": 28341.23630425468,
+                                "y": 31747.18284732722
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "userDefinedParameters": {
+                        "type": "User Defined Parameters",
+                        "name": "New User Defined Parameters",
+                        "config": "{\n    \"param1Name\": \"A text string value example\",\n    \"param2Name\": 0\n}",
+                        "project": "Foundations",
+                        "id": "071b0148-782c-4abe-b11d-9c9deab282c7",
+                        "savedPayload": {
+                            "position": {
+                                "x": 28433.94140256716,
+                                "y": 32032.499802215767
+                            },
+                            "targetPosition": {
+                                "x": 28341.23630425468,
+                                "y": 31747.18284732722
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "id": "225a955a-0af4-4db8-b6c6-0cbf56aee75f",
+                    "savedPayload": {
+                        "position": {
+                            "x": 28341.23630425468,
+                            "y": 31747.18284732722
+                        },
+                        "targetPosition": {
+                            "x": 28041.23630425468,
+                            "y": 31747.18284732722
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
+                "tradingSystemReference": {
+                    "type": "Trading System Reference",
+                    "name": "SMA 200/50",
+                    "project": "Foundations",
+                    "id": "bbed9bfb-2e36-4d63-86cf-be59418f53df",
+                    "savedPayload": {
+                        "position": {
+                            "x": 28253.368338610642,
+                            "y": 31959.314881683185
+                        },
+                        "targetPosition": {
+                            "x": 28041.23630425468,
+                            "y": 31747.18284732722
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        },
+                        "referenceParent": {
+                            "type": "Trading System",
+                            "name": "SMA 200/50",
+                            "id": "fd68fc64-2614-4a66-a858-cf50a4db398f"
+                        },
+                        "referenceParentCombinedNodePath": [
+                            [
+                                "SMA 200/50",
+                                "Trading System",
+                                "Foundations",
+                                "fd68fc64-2614-4a66-a858-cf50a4db398f"
+                            ]
+                        ]
+                    }
+                },
+                "tradingEngineReference": {
+                    "type": "Trading Engine Reference",
+                    "name": "Low-Frequency",
+                    "project": "Foundations",
+                    "id": "0c7d8e5c-8e91-46de-b31b-42e4f94edf17",
+                    "savedPayload": {
+                        "position": {
+                            "x": 28041.23630425468,
+                            "y": 32047.18284732722
+                        },
+                        "targetPosition": {
+                            "x": 28041.23630425468,
+                            "y": 31747.18284732722
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        },
+                        "referenceParent": {
+                            "type": "Trading Engine",
+                            "name": "Low-Frequency",
+                            "id": "eb20f622-71bf-4479-a574-d2320e1d4bd1"
+                        },
+                        "referenceParentCombinedNodePath": [
+                            [
+                                "Low-Frequency",
+                                "Trading Engine",
+                                "Foundations",
+                                "eb20f622-71bf-4479-a574-d2320e1d4bd1"
+                            ]
+                        ]
+                    }
+                },
+                "id": "21ff9fd2-9dbc-4e05-965a-007fa218b961",
+                "savedPayload": {
+                    "position": {
+                        "x": 28656.202720084075,
+                        "y": 31247.918778615294
+                    },
+                    "targetPosition": {
+                        "x": 28363.919146306827,
+                        "y": 31416.668778615294
+                    },
+                    "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": true,
+                        "angleToParent": 2,
+                        "distanceToParent": 3,
+                        "arrangementStyle": 0
+                    },
+                    "uiObject": {
+                        "isRunning": false
+                    }
+                }
+            },
+            "id": "17b13897-88da-4403-89a4-13ed235d1159",
+            "savedPayload": {
+                "position": {
+                    "x": 28363.919146306827,
+                    "y": 31416.668778615294
+                },
+                "targetPosition": {
+                    "x": 28071.63557252958,
+                    "y": 31585.418778615294
+                },
+                "floatingObject": {
+                    "isPinned": false,
+                    "isFrozen": false,
+                    "isCollapsed": false,
+                    "angleToParent": 1,
+                    "distanceToParent": 2,
+                    "arrangementStyle": 0
+                },
+                "uiObject": {
+                    "isRunning": false
+                },
+                "referenceParent": {
+                    "type": "Process Definition",
+                    "name": "Trading",
+                    "id": "a8c8d761-96e5-4a86-9285-6c3881d61442"
+                },
+                "referenceParentCombinedNodePath": [
+                    [
+                        "Masters",
+                        "Trading Mine",
+                        "Foundations",
+                        "6a54eece-4582-4cda-a854-1cd805e00fed"
+                    ],
+                    [
+                        "Low Frequency",
+                        "Trading Bot",
+                        "Foundations",
+                        "8c7f3687-b5ae-4a45-bda1-751cb2c55995"
+                    ],
+                    [
+                        "Trading",
+                        "Process Definition",
+                        "Foundations",
+                        "a8c8d761-96e5-4a86-9285-6c3881d61442"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Trading Process Instance",
+            "name": "Low Frequency Trading",
+            "project": "Foundations",
+            "session": {
+                "type": "Backtesting Session",
+                "name": "SMA 200/50-06hs",
+                "config": "{\"folderName\":\"SMA-200/50\"}",
+                "project": "Foundations",
+                "tradingParameters": {
+                    "type": "Trading Parameters",
+                    "name": "New Trading Parameters",
+                    "project": "Foundations",
+                    "sessionBaseAsset": {
+                        "type": "Session Base Asset",
+                        "name": "",
+                        "config": "{\n    \"initialBalance\": 0\n}",
+                        "project": "Foundations",
+                        "id": "7e836ce0-85cd-4b37-8f92-ae2f06ed3cb0",
+                        "savedPayload": {
+                            "position": {
+                                "x": 28370.14169393398,
+                                "y": 31668.57856403309
+                            },
+                            "targetPosition": {
+                                "x": 28206.749983429472,
+                                "y": 31920.179734416717
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "sessionQuotedAsset": {
+                        "type": "Session Quoted Asset",
+                        "name": "",
+                        "config": "{\n    \"initialBalance\": 1000\n}",
+                        "project": "Foundations",
+                        "id": "212d53d4-3b7a-4c0a-9afc-4dd7789980bd",
+                        "savedPayload": {
+                            "position": {
+                                "x": 28439.893771866562,
+                                "y": 31731.383617101765
+                            },
+                            "targetPosition": {
+                                "x": 28206.749983429472,
+                                "y": 31920.179734416717
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "timeRange": {
+                        "type": "Time Range",
+                        "name": "New Time Range",
+                        "config": "{\n    \"initialDatetime\": \"2020-01-02\",\n    \"finalDatetime\": \"2020-12-31\"\n}",
+                        "project": "Foundations",
+                        "id": "880c6441-9be6-4d3c-afe8-21a526fbac53",
+                        "savedPayload": {
+                            "position": {
+                                "x": 28486.82411137863,
+                                "y": 31812.669349553125
+                            },
+                            "targetPosition": {
+                                "x": 28206.749983429472,
+                                "y": 31920.179734416717
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "timeFrame": {
+                        "type": "Time Frame",
+                        "name": "New Time Frame",
+                        "config": "{\n    \"label\": \"06-hs\"\n}",
+                        "project": "Foundations",
+                        "id": "a02b8994-7afc-4900-ab36-caef72f6d1a8",
+                        "savedPayload": {
+                            "position": {
+                                "x": 28506.338843855843,
+                                "y": 31904.478947543834
+                            },
+                            "targetPosition": {
+                                "x": 28206.749983429472,
+                                "y": 31920.179734416717
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "slippage": {
+                        "type": "Slippage",
+                        "name": "New Slippage",
+                        "config": "{\n    \"marketOrderRate\": 0,\n    \"stopLoss\": 0,\n    \"takeProfit\": 0\n}",
+                        "project": "Foundations",
+                        "id": "34816868-2e07-4d7d-aac4-b9d528a5e1f9",
+                        "savedPayload": {
+                            "position": {
+                                "x": 28496.527731316193,
+                                "y": 31997.825447947474
+                            },
+                            "targetPosition": {
+                                "x": 28206.749983429472,
+                                "y": 31920.179734416717
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "feeStructure": {
+                        "type": "Fee Structure",
+                        "name": "New Fee Structure",
+                        "config": "{\n    \"maker\": 0.1,\n    \"taker\": 0.1\n}",
+                        "project": "Foundations",
+                        "id": "bf0f5ef2-b18e-4b22-bc29-cc2364c664ce",
+                        "savedPayload": {
+                            "position": {
+                                "x": 28458.3511538131,
+                                "y": 32083.571444921225
+                            },
+                            "targetPosition": {
+                                "x": 28206.749983429472,
+                                "y": 31920.179734416717
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "snapshots": {
+                        "type": "Snapshots",
+                        "name": "New Snapshots",
+                        "config": "{ \n\"strategy\": true,\n\"position\": true\n}",
+                        "project": "Foundations",
+                        "id": "5bfe27e0-b8a9-4177-a707-561683ac87f0",
+                        "savedPayload": {
+                            "position": {
+                                "x": 28395.546100744425,
+                                "y": 32153.323522853807
+                            },
+                            "targetPosition": {
+                                "x": 28206.749983429472,
+                                "y": 31920.179734416717
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "heartbeats": {
+                        "type": "Heartbeats",
+                        "name": "New Heartbeats",
+                        "config": "{\n    \"date\": true,\n    \"candleIndex\": false\n}",
+                        "project": "Foundations",
+                        "id": "f30445f3-3ef2-446f-8c05-c92f3b19148c",
+                        "savedPayload": {
+                            "position": {
+                                "x": 28314.260368293064,
+                                "y": 32200.253862365877
+                            },
+                            "targetPosition": {
+                                "x": 28206.749983429472,
+                                "y": 31920.179734416717
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "userDefinedParameters": {
+                        "type": "User Defined Parameters",
+                        "name": "New User Defined Parameters",
+                        "config": "{\n    \"param1Name\": \"A text string value example\",\n    \"param2Name\": 0\n}",
+                        "project": "Foundations",
+                        "id": "9baf1c99-f683-49b9-8c7b-a523c8c46dfc",
+                        "savedPayload": {
+                            "position": {
+                                "x": 28222.450770302356,
+                                "y": 32219.768594843088
+                            },
+                            "targetPosition": {
+                                "x": 28206.749983429472,
+                                "y": 31920.179734416717
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "id": "8ff11c77-1e85-4ac8-8fd6-e76e2404fc93",
+                    "savedPayload": {
+                        "position": {
+                            "x": 28206.749983429472,
+                            "y": 31920.179734416717
+                        },
+                        "targetPosition": {
+                            "x": 27916.97223554275,
+                            "y": 31842.53402088596
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
+                "tradingSystemReference": {
+                    "type": "Trading System Reference",
+                    "name": "SMA 200/50",
+                    "project": "Foundations",
+                    "id": "debe6153-8b38-45e7-91d5-3fd9ac4e3726",
+                    "savedPayload": {
+                        "position": {
+                            "x": 28066.97223554275,
+                            "y": 32102.341642021293
+                        },
+                        "targetPosition": {
+                            "x": 27916.97223554275,
+                            "y": 31842.53402088596
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        },
+                        "referenceParent": {
+                            "type": "Trading System",
+                            "name": "SMA 200/50",
+                            "id": "fd68fc64-2614-4a66-a858-cf50a4db398f"
+                        },
+                        "referenceParentCombinedNodePath": [
+                            [
+                                "SMA 200/50",
+                                "Trading System",
+                                "Foundations",
+                                "fd68fc64-2614-4a66-a858-cf50a4db398f"
+                            ]
+                        ]
+                    }
+                },
+                "tradingEngineReference": {
+                    "type": "Trading Engine Reference",
+                    "name": "Low-Frequency",
+                    "project": "Foundations",
+                    "id": "c11a8231-5ef5-40cd-8e68-bee01758140e",
+                    "savedPayload": {
+                        "position": {
+                            "x": 27839.326522011994,
+                            "y": 32132.31176877268
+                        },
+                        "targetPosition": {
+                            "x": 27916.97223554275,
+                            "y": 31842.53402088596
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        },
+                        "referenceParent": {
+                            "type": "Trading Engine",
+                            "name": "Low-Frequency",
+                            "id": "eb20f622-71bf-4479-a574-d2320e1d4bd1"
+                        },
+                        "referenceParentCombinedNodePath": [
+                            [
+                                "Low-Frequency",
+                                "Trading Engine",
+                                "Foundations",
+                                "eb20f622-71bf-4479-a574-d2320e1d4bd1"
+                            ]
+                        ]
+                    }
+                },
+                "id": "55158f17-f081-4ccd-affb-3cdd279cd591",
+                "savedPayload": {
+                    "position": {
+                        "x": 28736.38080581282,
+                        "y": 31702.63129854047
+                    },
+                    "targetPosition": {
+                        "x": 28404.0081891712,
+                        "y": 31644.02503857788
+                    },
+                    "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": true,
+                        "angleToParent": 2,
+                        "distanceToParent": 3,
+                        "arrangementStyle": 0
+                    },
+                    "uiObject": {
+                        "isRunning": false
+                    }
+                }
+            },
+            "id": "94c83670-da48-4281-b08f-464910746db4",
+            "savedPayload": {
+                "position": {
+                    "x": 28404.0081891712,
+                    "y": 31644.02503857788
+                },
+                "targetPosition": {
+                    "x": 28071.63557252958,
+                    "y": 31585.418778615294
+                },
+                "floatingObject": {
+                    "isPinned": false,
+                    "isFrozen": false,
+                    "isCollapsed": false,
+                    "angleToParent": 1,
+                    "distanceToParent": 2,
+                    "arrangementStyle": 0
+                },
+                "uiObject": {
+                    "isRunning": false
+                },
+                "referenceParent": {
+                    "type": "Process Definition",
+                    "name": "Trading",
+                    "id": "a8c8d761-96e5-4a86-9285-6c3881d61442"
+                },
+                "referenceParentCombinedNodePath": [
+                    [
+                        "Masters",
+                        "Trading Mine",
+                        "Foundations",
+                        "6a54eece-4582-4cda-a854-1cd805e00fed"
+                    ],
+                    [
+                        "Low Frequency",
+                        "Trading Bot",
+                        "Foundations",
+                        "8c7f3687-b5ae-4a45-bda1-751cb2c55995"
+                    ],
+                    [
+                        "Trading",
+                        "Process Definition",
+                        "Foundations",
+                        "a8c8d761-96e5-4a86-9285-6c3881d61442"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Trading Process Instance",
+            "name": "Low Frequency Trading",
+            "project": "Foundations",
+            "session": {
+                "type": "Backtesting Session",
+                "name": "SMA 200/50-08hs",
+                "config": "{\"folderName\":\"SMA-200/50\"}",
+                "project": "Foundations",
+                "tradingParameters": {
+                    "type": "Trading Parameters",
+                    "name": "New Trading Parameters",
+                    "project": "Foundations",
+                    "sessionBaseAsset": {
+                        "type": "Session Base Asset",
+                        "name": "",
+                        "config": "{\n    \"initialBalance\": 0\n}",
+                        "project": "Foundations",
+                        "id": "4dad8d24-1e0e-42ba-9b3d-9bba4e4dbc37",
+                        "savedPayload": {
+                            "position": {
+                                "x": 28370.14169393398,
+                                "y": 31668.57856403309
+                            },
+                            "targetPosition": {
+                                "x": 28206.749983429472,
+                                "y": 31920.179734416717
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "sessionQuotedAsset": {
+                        "type": "Session Quoted Asset",
+                        "name": "",
+                        "config": "{\n    \"initialBalance\": 1000\n}",
+                        "project": "Foundations",
+                        "id": "f507f989-b3be-49df-b8f0-7f958711d10d",
+                        "savedPayload": {
+                            "position": {
+                                "x": 28439.893771866562,
+                                "y": 31731.383617101765
+                            },
+                            "targetPosition": {
+                                "x": 28206.749983429472,
+                                "y": 31920.179734416717
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "timeRange": {
+                        "type": "Time Range",
+                        "name": "New Time Range",
+                        "config": "{\n    \"initialDatetime\": \"2020-01-02\",\n    \"finalDatetime\": \"2020-12-31\"\n}",
+                        "project": "Foundations",
+                        "id": "d474c874-3a47-4c64-a611-8b8cabd77a81",
+                        "savedPayload": {
+                            "position": {
+                                "x": 28486.82411137863,
+                                "y": 31812.669349553125
+                            },
+                            "targetPosition": {
+                                "x": 28206.749983429472,
+                                "y": 31920.179734416717
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "timeFrame": {
+                        "type": "Time Frame",
+                        "name": "New Time Frame",
+                        "config": "{\n    \"label\": \"08-hs\"\n}",
+                        "project": "Foundations",
+                        "id": "d6b1835f-6b16-43d8-baea-49d7c07bc9ae",
+                        "savedPayload": {
+                            "position": {
+                                "x": 28506.338843855843,
+                                "y": 31904.478947543834
+                            },
+                            "targetPosition": {
+                                "x": 28206.749983429472,
+                                "y": 31920.179734416717
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "slippage": {
+                        "type": "Slippage",
+                        "name": "New Slippage",
+                        "config": "{\n    \"marketOrderRate\": 0,\n    \"stopLoss\": 0,\n    \"takeProfit\": 0\n}",
+                        "project": "Foundations",
+                        "id": "c6470577-2421-4da2-9247-fac9b23bc7e9",
+                        "savedPayload": {
+                            "position": {
+                                "x": 28496.527731316193,
+                                "y": 31997.825447947474
+                            },
+                            "targetPosition": {
+                                "x": 28206.749983429472,
+                                "y": 31920.179734416717
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "feeStructure": {
+                        "type": "Fee Structure",
+                        "name": "New Fee Structure",
+                        "config": "{\n    \"maker\": 0.1,\n    \"taker\": 0.1\n}",
+                        "project": "Foundations",
+                        "id": "1b26c0d0-9bb4-4faf-b8fc-6a1bdafb631a",
+                        "savedPayload": {
+                            "position": {
+                                "x": 28458.3511538131,
+                                "y": 32083.571444921225
+                            },
+                            "targetPosition": {
+                                "x": 28206.749983429472,
+                                "y": 31920.179734416717
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "snapshots": {
+                        "type": "Snapshots",
+                        "name": "New Snapshots",
+                        "config": "{ \n\"strategy\": true,\n\"position\": true\n}",
+                        "project": "Foundations",
+                        "id": "3519848f-5ad8-4589-aded-155262d66489",
+                        "savedPayload": {
+                            "position": {
+                                "x": 28395.546100744425,
+                                "y": 32153.323522853807
+                            },
+                            "targetPosition": {
+                                "x": 28206.749983429472,
+                                "y": 31920.179734416717
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "heartbeats": {
+                        "type": "Heartbeats",
+                        "name": "New Heartbeats",
+                        "config": "{\n    \"date\": true,\n    \"candleIndex\": false\n}",
+                        "project": "Foundations",
+                        "id": "8de5f917-dab0-457d-8cbc-abed6cb3a6f6",
+                        "savedPayload": {
+                            "position": {
+                                "x": 28314.260368293064,
+                                "y": 32200.253862365877
+                            },
+                            "targetPosition": {
+                                "x": 28206.749983429472,
+                                "y": 31920.179734416717
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "userDefinedParameters": {
+                        "type": "User Defined Parameters",
+                        "name": "New User Defined Parameters",
+                        "config": "{\n    \"param1Name\": \"A text string value example\",\n    \"param2Name\": 0\n}",
+                        "project": "Foundations",
+                        "id": "78261de5-1794-44cd-af8e-295ccdb5b5f4",
+                        "savedPayload": {
+                            "position": {
+                                "x": 28222.450770302356,
+                                "y": 32219.768594843088
+                            },
+                            "targetPosition": {
+                                "x": 28206.749983429472,
+                                "y": 31920.179734416717
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "id": "f87de11e-c72f-46bc-b45a-a6d1f8906e24",
+                    "savedPayload": {
+                        "position": {
+                            "x": 28206.749983429472,
+                            "y": 31920.179734416717
+                        },
+                        "targetPosition": {
+                            "x": 27916.97223554275,
+                            "y": 31842.53402088596
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
+                "tradingSystemReference": {
+                    "type": "Trading System Reference",
+                    "name": "SMA 200/50",
+                    "project": "Foundations",
+                    "id": "ac3f9135-4597-4188-9dac-40a7f51a65da",
+                    "savedPayload": {
+                        "position": {
+                            "x": 28066.97223554275,
+                            "y": 32102.341642021293
+                        },
+                        "targetPosition": {
+                            "x": 27916.97223554275,
+                            "y": 31842.53402088596
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        },
+                        "referenceParent": {
+                            "type": "Trading System",
+                            "name": "SMA 200/50",
+                            "id": "fd68fc64-2614-4a66-a858-cf50a4db398f"
+                        },
+                        "referenceParentCombinedNodePath": [
+                            [
+                                "SMA 200/50",
+                                "Trading System",
+                                "Foundations",
+                                "fd68fc64-2614-4a66-a858-cf50a4db398f"
+                            ]
+                        ]
+                    }
+                },
+                "tradingEngineReference": {
+                    "type": "Trading Engine Reference",
+                    "name": "Low-Frequency",
+                    "project": "Foundations",
+                    "id": "ecb09fd2-659e-4e84-8a21-a88c01c48f37",
+                    "savedPayload": {
+                        "position": {
+                            "x": 27839.326522011994,
+                            "y": 32132.31176877268
+                        },
+                        "targetPosition": {
+                            "x": 27916.97223554275,
+                            "y": 31842.53402088596
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        },
+                        "referenceParent": {
+                            "type": "Trading Engine",
+                            "name": "Low-Frequency",
+                            "id": "eb20f622-71bf-4479-a574-d2320e1d4bd1"
+                        },
+                        "referenceParentCombinedNodePath": [
+                            [
+                                "Low-Frequency",
+                                "Trading Engine",
+                                "Foundations",
+                                "eb20f622-71bf-4479-a574-d2320e1d4bd1"
+                            ]
+                        ]
+                    }
+                },
+                "id": "0f4639bc-c440-4ed3-bbf1-7d7b09c79822",
+                "savedPayload": {
+                    "position": {
+                        "x": 28505.51720906799,
+                        "y": 32102.498777720608
+                    },
+                    "targetPosition": {
+                        "x": 28288.576390798786,
+                        "y": 31843.95877816795
+                    },
+                    "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": true,
+                        "angleToParent": 2,
+                        "distanceToParent": 3,
+                        "arrangementStyle": 0
+                    },
+                    "uiObject": {
+                        "isRunning": false
+                    }
+                }
+            },
+            "id": "f6af2235-9099-475a-a4f1-eb30c2dd55de",
+            "savedPayload": {
+                "position": {
+                    "x": 28288.576390798786,
+                    "y": 31843.95877816795
+                },
+                "targetPosition": {
+                    "x": 28071.63557252958,
+                    "y": 31585.418778615294
+                },
+                "floatingObject": {
+                    "isPinned": false,
+                    "isFrozen": false,
+                    "isCollapsed": false,
+                    "angleToParent": 1,
+                    "distanceToParent": 2,
+                    "arrangementStyle": 0
+                },
+                "uiObject": {
+                    "isRunning": false
+                },
+                "referenceParent": {
+                    "type": "Process Definition",
+                    "name": "Trading",
+                    "id": "a8c8d761-96e5-4a86-9285-6c3881d61442"
+                },
+                "referenceParentCombinedNodePath": [
+                    [
+                        "Masters",
+                        "Trading Mine",
+                        "Foundations",
+                        "6a54eece-4582-4cda-a854-1cd805e00fed"
+                    ],
+                    [
+                        "Low Frequency",
+                        "Trading Bot",
+                        "Foundations",
+                        "8c7f3687-b5ae-4a45-bda1-751cb2c55995"
+                    ],
+                    [
+                        "Trading",
+                        "Process Definition",
+                        "Foundations",
+                        "a8c8d761-96e5-4a86-9285-6c3881d61442"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Trading Process Instance",
+            "name": "Low Frequency Trading",
+            "project": "Foundations",
+            "session": {
+                "type": "Backtesting Session",
+                "name": "SMA 200/50-12hs",
+                "config": "{\"folderName\":\"SMA-200/50\"}",
+                "project": "Foundations",
+                "tradingParameters": {
+                    "type": "Trading Parameters",
+                    "name": "New Trading Parameters",
+                    "project": "Foundations",
+                    "sessionBaseAsset": {
+                        "type": "Session Base Asset",
+                        "name": "",
+                        "config": "{\n    \"initialBalance\": 0\n}",
+                        "project": "Foundations",
+                        "id": "47ddb5a8-ec47-430c-aebf-1c382fa00e76",
+                        "savedPayload": {
+                            "position": {
+                                "x": 28206.497408443796,
+                                "y": 31905.33185438232
+                            },
+                            "targetPosition": {
+                                "x": 27966.90675542961,
+                                "y": 32085.876361327933
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "sessionQuotedAsset": {
+                        "type": "Session Quoted Asset",
+                        "name": "",
+                        "config": "{\n    \"initialBalance\": 1000\n}",
+                        "project": "Foundations",
+                        "id": "56181fcf-c53a-4aea-8a4e-d1509b84a524",
+                        "savedPayload": {
+                            "position": {
+                                "x": 28250.562328109405,
+                                "y": 31988.205914990787
+                            },
+                            "targetPosition": {
+                                "x": 27966.90675542961,
+                                "y": 32085.876361327933
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "timeRange": {
+                        "type": "Time Range",
+                        "name": "New Time Range",
+                        "config": "{\n    \"initialDatetime\": \"2020-01-02\",\n    \"finalDatetime\": \"2020-12-31\"\n}",
+                        "project": "Foundations",
+                        "id": "3c1fdd8d-1d68-458b-a86a-c0994e945d95",
+                        "savedPayload": {
+                            "position": {
+                                "x": 28266.861063976525,
+                                "y": 32080.640639396748
+                            },
+                            "targetPosition": {
+                                "x": 27966.90675542961,
+                                "y": 32085.876361327933
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "timeFrame": {
+                        "type": "Time Frame",
+                        "name": "New Time Frame",
+                        "config": "{\n    \"label\": \"12hs\"\n}",
+                        "project": "Foundations",
+                        "id": "17203ff4-99f1-4391-ac50-6423836a718c",
+                        "savedPayload": {
+                            "position": {
+                                "x": 28253.79818221852,
+                                "y": 32173.587872744756
+                            },
+                            "targetPosition": {
+                                "x": 27966.90675542961,
+                                "y": 32085.876361327933
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "slippage": {
+                        "type": "Slippage",
+                        "name": "New Slippage",
+                        "config": "{\n    \"marketOrderRate\": 0,\n    \"stopLoss\": 0,\n    \"takeProfit\": 0\n}",
+                        "project": "Foundations",
+                        "id": "e3e1c586-ef82-4bb6-8e03-7ba8987576e8",
+                        "savedPayload": {
+                            "position": {
+                                "x": 28212.652368716306,
+                                "y": 32257.949292233247
+                            },
+                            "targetPosition": {
+                                "x": 27966.90675542961,
+                                "y": 32085.876361327933
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "feeStructure": {
+                        "type": "Fee Structure",
+                        "name": "New Fee Structure",
+                        "config": "{\n    \"maker\": 0.1,\n    \"taker\": 0.1\n}",
+                        "project": "Foundations",
+                        "id": "d8b50174-878d-48ed-a7fa-d54e758fbfff",
+                        "savedPayload": {
+                            "position": {
+                                "x": 28147.451262375223,
+                                "y": 32325.46701434212
+                            },
+                            "targetPosition": {
+                                "x": 27966.90675542961,
+                                "y": 32085.876361327933
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "snapshots": {
+                        "type": "Snapshots",
+                        "name": "New Snapshots",
+                        "config": "{ \n\"strategy\": true,\n\"position\": true\n}",
+                        "project": "Foundations",
+                        "id": "2bf76219-c1c5-49b2-b309-08e70730aa47",
+                        "savedPayload": {
+                            "position": {
+                                "x": 28064.577201766755,
+                                "y": 32369.53193400773
+                            },
+                            "targetPosition": {
+                                "x": 27966.90675542961,
+                                "y": 32085.876361327933
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "heartbeats": {
+                        "type": "Heartbeats",
+                        "name": "New Heartbeats",
+                        "config": "{\n    \"date\": true,\n    \"candleIndex\": false\n}",
+                        "project": "Foundations",
+                        "id": "c5922ea6-2cdb-4727-89cb-9a0d0827ba2f",
+                        "savedPayload": {
+                            "position": {
+                                "x": 27972.142477360794,
+                                "y": 32385.83066987485
+                            },
+                            "targetPosition": {
+                                "x": 27966.90675542961,
+                                "y": 32085.876361327933
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "userDefinedParameters": {
+                        "type": "User Defined Parameters",
+                        "name": "New User Defined Parameters",
+                        "config": "{\n    \"param1Name\": \"A text string value example\",\n    \"param2Name\": 0\n}",
+                        "project": "Foundations",
+                        "id": "1c0094ad-b000-42a1-9bde-0864523dd0b8",
+                        "savedPayload": {
+                            "position": {
+                                "x": 27879.195244012786,
+                                "y": 32372.767788116846
+                            },
+                            "targetPosition": {
+                                "x": 27966.90675542961,
+                                "y": 32085.876361327933
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "id": "899dc3e4-34f1-422d-80bb-7faad4d2f49c",
+                    "savedPayload": {
+                        "position": {
+                            "x": 27966.90675542961,
+                            "y": 32085.876361327933
+                        },
+                        "targetPosition": {
+                            "x": 27721.16114214291,
+                            "y": 31913.80343042262
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
+                "tradingSystemReference": {
+                    "type": "Trading System Reference",
+                    "name": "SMA 200/50",
+                    "project": "Foundations",
+                    "id": "a2107ea0-4ef5-4fba-a4cf-6cd6063f1fcd",
+                    "savedPayload": {
+                        "position": {
+                            "x": 27773.25559544299,
+                            "y": 32209.245756326283
+                        },
+                        "targetPosition": {
+                            "x": 27721.16114214291,
+                            "y": 31913.80343042262
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        },
+                        "referenceParent": {
+                            "type": "Trading System",
+                            "name": "SMA 200/50",
+                            "id": "fd68fc64-2614-4a66-a858-cf50a4db398f"
+                        },
+                        "referenceParentCombinedNodePath": [
+                            [
+                                "SMA 200/50",
+                                "Trading System",
+                                "Foundations",
+                                "fd68fc64-2614-4a66-a858-cf50a4db398f"
+                            ]
+                        ]
+                    }
+                },
+                "tradingEngineReference": {
+                    "type": "Trading Engine Reference",
+                    "name": "Low-Frequency",
+                    "project": "Foundations",
+                    "id": "a1f20d76-084c-4a71-8f9c-93e6982cb581",
+                    "savedPayload": {
+                        "position": {
+                            "x": 27549.0882112376,
+                            "y": 32159.549043709318
+                        },
+                        "targetPosition": {
+                            "x": 27721.16114214291,
+                            "y": 31913.80343042262
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        },
+                        "referenceParent": {
+                            "type": "Trading Engine",
+                            "name": "Low-Frequency",
+                            "id": "eb20f622-71bf-4479-a574-d2320e1d4bd1"
+                        },
+                        "referenceParentCombinedNodePath": [
+                            [
+                                "Low-Frequency",
+                                "Trading Engine",
+                                "Foundations",
+                                "eb20f622-71bf-4479-a574-d2320e1d4bd1"
+                            ]
+                        ]
+                    }
+                },
+                "id": "d231cce9-7d0a-4232-8fa9-4e29840396db",
+                "savedPayload": {
+                    "position": {
+                        "x": 28071.63557252958,
+                        "y": 32260.418778615294
+                    },
+                    "targetPosition": {
+                        "x": 28071.63557252958,
+                        "y": 31922.918778615294
+                    },
+                    "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": true,
+                        "angleToParent": 2,
+                        "distanceToParent": 3,
+                        "arrangementStyle": 0
+                    },
+                    "uiObject": {
+                        "isRunning": false
+                    }
+                }
+            },
+            "id": "f7930c87-ee0f-4cf7-98f2-954f4451cd21",
+            "savedPayload": {
+                "position": {
+                    "x": 28071.63557252958,
+                    "y": 31922.918778615294
+                },
+                "targetPosition": {
+                    "x": 28071.63557252958,
+                    "y": 31585.418778615294
+                },
+                "floatingObject": {
+                    "isPinned": false,
+                    "isFrozen": false,
+                    "isCollapsed": false,
+                    "angleToParent": 1,
+                    "distanceToParent": 2,
+                    "arrangementStyle": 0
+                },
+                "uiObject": {
+                    "isRunning": false
+                },
+                "referenceParent": {
+                    "type": "Process Definition",
+                    "name": "Trading",
+                    "id": "a8c8d761-96e5-4a86-9285-6c3881d61442"
+                },
+                "referenceParentCombinedNodePath": [
+                    [
+                        "Masters",
+                        "Trading Mine",
+                        "Foundations",
+                        "6a54eece-4582-4cda-a854-1cd805e00fed"
+                    ],
+                    [
+                        "Low Frequency",
+                        "Trading Bot",
+                        "Foundations",
+                        "8c7f3687-b5ae-4a45-bda1-751cb2c55995"
+                    ],
+                    [
+                        "Trading",
+                        "Process Definition",
+                        "Foundations",
+                        "a8c8d761-96e5-4a86-9285-6c3881d61442"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Trading Process Instance",
+            "name": "Low Frequency Trading",
+            "project": "Foundations",
+            "session": {
+                "type": "Backtesting Session",
+                "name": "SMA 200/50-02hs",
+                "config": "{\n    \"folderName\": \"SMA-200/50\"\n}",
+                "project": "Foundations",
+                "tradingParameters": {
+                    "type": "Trading Parameters",
+                    "name": "New Trading Parameters",
+                    "project": "Foundations",
+                    "sessionBaseAsset": {
+                        "type": "Session Base Asset",
+                        "name": "",
+                        "config": "{\n    \"initialBalance\": 0\n}",
+                        "project": "Foundations",
+                        "id": "e427ab63-4aa6-438c-8a59-6f5bf729ba31",
+                        "savedPayload": {
+                            "position": {
+                                "x": 27996.018896033518,
+                                "y": 32514.635469167628
+                            },
+                            "targetPosition": {
+                                "x": 27667.1689991685,
+                                "y": 32438.714488326572
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "sessionQuotedAsset": {
+                        "type": "Session Quoted Asset",
+                        "name": "",
+                        "config": "{\n    \"initialBalance\": 1000\n}",
+                        "project": "Foundations",
+                        "id": "8daa1f29-7ccc-4f69-82f8-5a711349bd4a",
+                        "savedPayload": {
+                            "position": {
+                                "x": 27956.462963155464,
+                                "y": 32612.539838608714
+                            },
+                            "targetPosition": {
+                                "x": 27667.1689991685,
+                                "y": 32438.714488326572
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "timeRange": {
+                        "type": "Time Range",
+                        "name": "New Time Range",
+                        "config": "{\n    \"initialDatetime\": \"2020-01-02\",\n    \"finalDatetime\": \"2020-12-31\"\n}",
+                        "project": "Foundations",
+                        "id": "042a9332-fcbd-4960-a637-d023e42f895e",
+                        "savedPayload": {
+                            "position": {
+                                "x": 27888.588921452796,
+                                "y": 32693.428971651756
+                            },
+                            "targetPosition": {
+                                "x": 27667.1689991685,
+                                "y": 32438.714488326572
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "timeFrame": {
+                        "type": "Time Frame",
+                        "name": "New Time Frame",
+                        "config": "{\n    \"label\": \"02-hs\"\n}",
+                        "project": "Foundations",
+                        "id": "0d23858e-9fbe-4b89-97ba-4d4952dd11e4",
+                        "savedPayload": {
+                            "position": {
+                                "x": 27799.04075503363,
+                                "y": 32749.38487636677
+                            },
+                            "targetPosition": {
+                                "x": 27667.1689991685,
+                                "y": 32438.714488326572
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "slippage": {
+                        "type": "Slippage",
+                        "name": "New Slippage",
+                        "config": "{\n    \"marketOrderRate\": 0,\n    \"stopLoss\": 0,\n    \"takeProfit\": 0\n}",
+                        "project": "Foundations",
+                        "id": "ff808002-2bcc-402d-8b5d-d4806fb75419",
+                        "savedPayload": {
+                            "position": {
+                                "x": 27696.584062345835,
+                                "y": 32774.93019893254
+                            },
+                            "targetPosition": {
+                                "x": 27667.1689991685,
+                                "y": 32438.714488326572
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "feeStructure": {
+                        "type": "Fee Structure",
+                        "name": "New Fee Structure",
+                        "config": "{\n    \"maker\": 0.1,\n    \"taker\": 0.1\n}",
+                        "project": "Foundations",
+                        "id": "15aedae5-eb13-4b70-b3c5-f8fcc1c94c19",
+                        "savedPayload": {
+                            "position": {
+                                "x": 27591.248018327446,
+                                "y": 32767.56438519159
+                            },
+                            "targetPosition": {
+                                "x": 27667.1689991685,
+                                "y": 32438.714488326572
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "snapshots": {
+                        "type": "Snapshots",
+                        "name": "New Snapshots",
+                        "config": "{ \n\"strategy\": true,\n\"position\": true\n}",
+                        "project": "Foundations",
+                        "id": "6de3ade2-3efe-4484-bd3b-9655391f4697",
+                        "savedPayload": {
+                            "position": {
+                                "x": 27493.34364888636,
+                                "y": 32728.008452313534
+                            },
+                            "targetPosition": {
+                                "x": 27667.1689991685,
+                                "y": 32438.714488326572
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "heartbeats": {
+                        "type": "Heartbeats",
+                        "name": "New Heartbeats",
+                        "config": "{\n    \"date\": true,\n    \"candleIndex\": false\n}",
+                        "project": "Foundations",
+                        "id": "d0a4c3e2-d700-4942-a302-7edfd4c2a67a",
+                        "savedPayload": {
+                            "position": {
+                                "x": 27412.454515843317,
+                                "y": 32660.134410610866
+                            },
+                            "targetPosition": {
+                                "x": 27667.1689991685,
+                                "y": 32438.714488326572
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "userDefinedParameters": {
+                        "type": "User Defined Parameters",
+                        "name": "New User Defined Parameters",
+                        "config": "{\n    \"param1Name\": \"A text string value example\",\n    \"param2Name\": 0\n}",
+                        "project": "Foundations",
+                        "id": "f6bca5c9-6e64-4cf5-be3f-75e108236b44",
+                        "savedPayload": {
+                            "position": {
+                                "x": 27356.498611128303,
+                                "y": 32570.5862441917
+                            },
+                            "targetPosition": {
+                                "x": 27667.1689991685,
+                                "y": 32438.714488326572
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "id": "9011579e-361c-441c-9e1b-7d7f6923d1cd",
+                    "savedPayload": {
+                        "position": {
+                            "x": 27667.1689991685,
+                            "y": 32438.714488326572
+                        },
+                        "targetPosition": {
+                            "x": 27637.753935991168,
+                            "y": 32102.498777720608
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
+                "tradingSystemReference": {
+                    "type": "Trading System Reference",
+                    "name": "SMA 200/50",
+                    "project": "Foundations",
+                    "id": "955286bb-762b-48be-af4a-650bfd2ff271",
+                    "savedPayload": {
+                        "position": {
+                            "x": 27420.813117721962,
+                            "y": 32361.038777273265
+                        },
+                        "targetPosition": {
+                            "x": 27637.753935991168,
+                            "y": 32102.498777720608
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        },
+                        "referenceParent": {
+                            "type": "Trading System",
+                            "name": "SMA 200/50",
+                            "id": "fd68fc64-2614-4a66-a858-cf50a4db398f"
+                        },
+                        "referenceParentCombinedNodePath": [
+                            [
+                                "SMA 200/50",
+                                "Trading System",
+                                "Foundations",
+                                "fd68fc64-2614-4a66-a858-cf50a4db398f"
+                            ]
+                        ]
+                    }
+                },
+                "tradingEngineReference": {
+                    "type": "Trading Engine Reference",
+                    "name": "Low-Frequency",
+                    "project": "Foundations",
+                    "id": "df498750-006e-4e21-b475-86de16f65b6e",
+                    "savedPayload": {
+                        "position": {
+                            "x": 27301.538225385204,
+                            "y": 32131.91384089794
+                        },
+                        "targetPosition": {
+                            "x": 27637.753935991168,
+                            "y": 32102.498777720608
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        },
+                        "referenceParent": {
+                            "type": "Trading Engine",
+                            "name": "Low-Frequency",
+                            "id": "eb20f622-71bf-4479-a574-d2320e1d4bd1"
+                        },
+                        "referenceParentCombinedNodePath": [
+                            [
+                                "Low-Frequency",
+                                "Trading Engine",
+                                "Foundations",
+                                "eb20f622-71bf-4479-a574-d2320e1d4bd1"
+                            ]
+                        ]
+                    }
+                },
+                "id": "a6f1d2ba-96b2-4f34-86e9-9bd26be5a554",
+                "savedPayload": {
+                    "position": {
+                        "x": 27637.753935991168,
+                        "y": 32102.498777720608
+                    },
+                    "targetPosition": {
+                        "x": 27854.694754260374,
+                        "y": 31843.95877816795
+                    },
+                    "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": false,
+                        "angleToParent": 2,
+                        "distanceToParent": 3,
+                        "arrangementStyle": 0
+                    },
+                    "uiObject": {
+                        "isRunning": false
+                    }
+                }
+            },
+            "id": "e207e0e2-25bd-4a3c-a699-82df875c0577",
+            "savedPayload": {
+                "position": {
+                    "x": 27854.694754260374,
+                    "y": 31843.95877816795
+                },
+                "targetPosition": {
+                    "x": 28071.63557252958,
+                    "y": 31585.418778615294
+                },
+                "floatingObject": {
+                    "isPinned": false,
+                    "isFrozen": false,
+                    "isCollapsed": false,
+                    "angleToParent": 1,
+                    "distanceToParent": 2,
+                    "arrangementStyle": 0
+                },
+                "uiObject": {
+                    "isRunning": false
+                },
+                "referenceParent": {
+                    "type": "Process Definition",
+                    "name": "Trading",
+                    "id": "a8c8d761-96e5-4a86-9285-6c3881d61442"
+                },
+                "referenceParentCombinedNodePath": [
+                    [
+                        "Masters",
+                        "Trading Mine",
+                        "Foundations",
+                        "6a54eece-4582-4cda-a854-1cd805e00fed"
+                    ],
+                    [
+                        "Low Frequency",
+                        "Trading Bot",
+                        "Foundations",
+                        "8c7f3687-b5ae-4a45-bda1-751cb2c55995"
+                    ],
+                    [
+                        "Trading",
+                        "Process Definition",
+                        "Foundations",
+                        "a8c8d761-96e5-4a86-9285-6c3881d61442"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Trading Process Instance",
+            "name": "Low Frequency Trading",
+            "project": "Foundations",
+            "session": {
+                "type": "Backtesting Session",
+                "name": "SMA 200/50-24hs",
+                "config": "{\"folderName\":\"SMA-200/50\"}",
+                "project": "Foundations",
+                "tradingParameters": {
+                    "type": "Trading Parameters",
+                    "name": "New Trading Parameters",
+                    "project": "Foundations",
+                    "sessionBaseAsset": {
+                        "type": "Session Base Asset",
+                        "name": "",
+                        "config": "{\n    \"initialBalance\": 0\n}",
+                        "project": "Foundations",
+                        "id": "0ec5c788-46c8-44c4-bb6d-dbb287878408",
+                        "savedPayload": {
+                            "position": {
+                                "x": 27971.747686636816,
+                                "y": 32071.837532292495
+                            },
+                            "targetPosition": {
+                                "x": 27684.856259847904,
+                                "y": 32159.549043709318
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "sessionQuotedAsset": {
+                        "type": "Session Quoted Asset",
+                        "name": "",
+                        "config": "{\n    \"initialBalance\": 1000\n}",
+                        "project": "Foundations",
+                        "id": "a79f7748-4f0a-4dbf-9eaf-10808c405f28",
+                        "savedPayload": {
+                            "position": {
+                                "x": 27984.81056839482,
+                                "y": 32164.784765640503
+                            },
+                            "targetPosition": {
+                                "x": 27684.856259847904,
+                                "y": 32159.549043709318
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "timeRange": {
+                        "type": "Time Range",
+                        "name": "New Time Range",
+                        "config": "{\n    \"initialDatetime\": \"2020-01-02\",\n    \"finalDatetime\": \"2020-12-31\"\n}",
+                        "project": "Foundations",
+                        "id": "029c7998-b05f-4856-be70-375f18765e13",
+                        "savedPayload": {
+                            "position": {
+                                "x": 27968.5118325277,
+                                "y": 32257.219490046464
+                            },
+                            "targetPosition": {
+                                "x": 27684.856259847904,
+                                "y": 32159.549043709318
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "timeFrame": {
+                        "type": "Time Frame",
+                        "name": "New Time Frame",
+                        "config": "{\n    \"label\": \"24-hs\"\n}",
+                        "project": "Foundations",
+                        "id": "4bc84cae-aef5-4050-81e0-8094a1ab5e9c",
+                        "savedPayload": {
+                            "position": {
+                                "x": 27924.44691286209,
+                                "y": 32340.093550654932
+                            },
+                            "targetPosition": {
+                                "x": 27684.856259847904,
+                                "y": 32159.549043709318
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "slippage": {
+                        "type": "Slippage",
+                        "name": "New Slippage",
+                        "config": "{\n    \"marketOrderRate\": 0,\n    \"stopLoss\": 0,\n    \"takeProfit\": 0\n}",
+                        "project": "Foundations",
+                        "id": "057e8ebd-0fd1-467c-a00e-c37bc0711f39",
+                        "savedPayload": {
+                            "position": {
+                                "x": 27856.929190753217,
+                                "y": 32405.294656996015
+                            },
+                            "targetPosition": {
+                                "x": 27684.856259847904,
+                                "y": 32159.549043709318
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "feeStructure": {
+                        "type": "Fee Structure",
+                        "name": "New Fee Structure",
+                        "config": "{\n    \"maker\": 0.1,\n    \"taker\": 0.1\n}",
+                        "project": "Foundations",
+                        "id": "21beb9f0-5586-4210-a906-d3cfcc66f0fb",
+                        "savedPayload": {
+                            "position": {
+                                "x": 27772.567771264727,
+                                "y": 32446.44047049823
+                            },
+                            "targetPosition": {
+                                "x": 27684.856259847904,
+                                "y": 32159.549043709318
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "snapshots": {
+                        "type": "Snapshots",
+                        "name": "New Snapshots",
+                        "config": "{ \n\"strategy\": true,\n\"position\": true\n}",
+                        "project": "Foundations",
+                        "id": "e9515bb6-5df0-4491-94df-c8e5cf1bf28e",
+                        "savedPayload": {
+                            "position": {
+                                "x": 27679.62053791672,
+                                "y": 32459.503352256233
+                            },
+                            "targetPosition": {
+                                "x": 27684.856259847904,
+                                "y": 32159.549043709318
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "heartbeats": {
+                        "type": "Heartbeats",
+                        "name": "New Heartbeats",
+                        "config": "{\n    \"date\": true,\n    \"candleIndex\": false\n}",
+                        "project": "Foundations",
+                        "id": "fd6a929d-cc5e-4c87-aa15-0c256f4190ba",
+                        "savedPayload": {
+                            "position": {
+                                "x": 27587.185813510758,
+                                "y": 32443.204616389114
+                            },
+                            "targetPosition": {
+                                "x": 27684.856259847904,
+                                "y": 32159.549043709318
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "userDefinedParameters": {
+                        "type": "User Defined Parameters",
+                        "name": "New User Defined Parameters",
+                        "config": "{\n    \"param1Name\": \"A text string value example\",\n    \"param2Name\": 0\n}",
+                        "project": "Foundations",
+                        "id": "6e03737b-ef50-467b-93f7-a86b4bfd14af",
+                        "savedPayload": {
+                            "position": {
+                                "x": 27504.31175290229,
+                                "y": 32399.139696723505
+                            },
+                            "targetPosition": {
+                                "x": 27684.856259847904,
+                                "y": 32159.549043709318
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "id": "5ae97710-c114-4d7d-b94a-034db4f01f3b",
+                    "savedPayload": {
+                        "position": {
+                            "x": 27684.856259847904,
+                            "y": 32159.549043709318
+                        },
+                        "targetPosition": {
+                            "x": 27512.78332894259,
+                            "y": 31913.80343042262
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
+                "tradingSystemReference": {
+                    "type": "Trading System Reference",
+                    "name": "SMA 200/50",
+                    "project": "Foundations",
+                    "id": "75ec0946-cee6-4ed0-a7b0-b485deb57841",
+                    "savedPayload": {
+                        "position": {
+                            "x": 27460.68887564251,
+                            "y": 32209.245756326283
+                        },
+                        "targetPosition": {
+                            "x": 27512.78332894259,
+                            "y": 31913.80343042262
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        },
+                        "referenceParent": {
+                            "type": "Trading System",
+                            "name": "SMA 200/50",
+                            "id": "fd68fc64-2614-4a66-a858-cf50a4db398f"
+                        },
+                        "referenceParentCombinedNodePath": [
+                            [
+                                "SMA 200/50",
+                                "Trading System",
+                                "Foundations",
+                                "fd68fc64-2614-4a66-a858-cf50a4db398f"
+                            ]
+                        ]
+                    }
+                },
+                "tradingEngineReference": {
+                    "type": "Trading Engine Reference",
+                    "name": "Low-Frequency",
+                    "project": "Foundations",
+                    "id": "86aa0dac-1540-4867-b6c8-789e2a9d6296",
+                    "savedPayload": {
+                        "position": {
+                            "x": 27267.037715655893,
+                            "y": 32085.876361327933
+                        },
+                        "targetPosition": {
+                            "x": 27512.78332894259,
+                            "y": 31913.80343042262
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        },
+                        "referenceParent": {
+                            "type": "Trading Engine",
+                            "name": "Low-Frequency",
+                            "id": "eb20f622-71bf-4479-a574-d2320e1d4bd1"
+                        },
+                        "referenceParentCombinedNodePath": [
+                            [
+                                "Low-Frequency",
+                                "Trading Engine",
+                                "Foundations",
+                                "eb20f622-71bf-4479-a574-d2320e1d4bd1"
+                            ]
+                        ]
+                    }
+                },
+                "id": "fb5a55a1-11a7-46c6-bbee-e31f74f44dba",
+                "savedPayload": {
+                    "position": {
+                        "x": 27406.89033924634,
+                        "y": 31702.63129854047
+                    },
+                    "targetPosition": {
+                        "x": 27739.26295588796,
+                        "y": 31644.02503857788
+                    },
+                    "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": true,
+                        "angleToParent": 2,
+                        "distanceToParent": 3,
+                        "arrangementStyle": 0
+                    },
+                    "uiObject": {
+                        "isRunning": false
+                    }
+                }
+            },
+            "id": "a44291af-5e52-46cd-ad14-8ae34ad76362",
+            "savedPayload": {
+                "position": {
+                    "x": 27739.26295588796,
+                    "y": 31644.02503857788
+                },
+                "targetPosition": {
+                    "x": 28071.63557252958,
+                    "y": 31585.418778615294
+                },
+                "floatingObject": {
+                    "isPinned": false,
+                    "isFrozen": false,
+                    "isCollapsed": false,
+                    "angleToParent": 1,
+                    "distanceToParent": 2,
+                    "arrangementStyle": 0
+                },
+                "uiObject": {
+                    "isRunning": false
+                },
+                "referenceParent": {
+                    "type": "Process Definition",
+                    "name": "Trading",
+                    "id": "a8c8d761-96e5-4a86-9285-6c3881d61442"
+                },
+                "referenceParentCombinedNodePath": [
+                    [
+                        "Masters",
+                        "Trading Mine",
+                        "Foundations",
+                        "6a54eece-4582-4cda-a854-1cd805e00fed"
+                    ],
+                    [
+                        "Low Frequency",
+                        "Trading Bot",
+                        "Foundations",
+                        "8c7f3687-b5ae-4a45-bda1-751cb2c55995"
+                    ],
+                    [
+                        "Trading",
+                        "Process Definition",
+                        "Foundations",
+                        "a8c8d761-96e5-4a86-9285-6c3881d61442"
+                    ]
+                ]
+            }
+        }
+    ],
+    "id": "147ef86e-46a7-48d6-ba6d-fed7a12a143d",
+    "savedPayload": {
+        "position": {
+            "x": 28071.63557252958,
+            "y": 31585.418778615294
+        },
+        "targetPosition": {
+            "x": 27487.068424975085,
+            "y": 31247.918778615294
+        },
+        "floatingObject": {
+            "isPinned": false,
+            "isFrozen": false,
+            "isCollapsed": false,
+            "angleToParent": 2,
+            "distanceToParent": 4,
+            "arrangementStyle": 0
+        },
+        "uiObject": {
+            "isRunning": false
+        }
+    }
+}

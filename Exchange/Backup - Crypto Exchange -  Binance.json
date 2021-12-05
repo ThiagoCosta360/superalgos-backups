@@ -1,0 +1,1041 @@
+{
+    "type": "Crypto Exchange",
+    "name": "Binance",
+    "config": "{\n    \"codeName\": \"binance\",\n    \"API\": [\n        {\n            \"method\": \"fetchTrades\",\n            \"fetchType\": \"by Id\",\n            \"fetchTradesMethod\": \"publicGetHistoricalTrades\",\n            \"firstId\": \"f\"\n        }\n    ]\n}",
+    "project": "Foundations",
+    "exchangeAssets": {
+        "type": "Exchange Assets",
+        "name": "New Exchange Assets",
+        "config": "{ \n\"addMissingAssetsFilter\": { \"quotedAsset\": \"EUR\"} \n}",
+        "project": "Foundations",
+        "assets": [
+            {
+                "type": "Asset",
+                "name": "Bitcoin",
+                "config": "{ \n\"codeName\": \"BTC\"\n}",
+                "project": "Foundations",
+                "id": "5f5e4a94-5090-47d4-8883-cc2325d20bfa",
+                "savedPayload": {
+                    "position": {
+                        "x": 19740.69021112295,
+                        "y": 30566.073745260444
+                    },
+                    "targetPosition": {
+                        "x": 19763.10923919888,
+                        "y": 30865.2348844148
+                    },
+                    "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": false,
+                        "angleToParent": 2,
+                        "distanceToParent": 3,
+                        "arrangementStyle": 0
+                    },
+                    "uiObject": {
+                        "isRunning": false
+                    }
+                }
+            },
+            {
+                "type": "Asset",
+                "name": "Tether",
+                "config": "{ \n\"codeName\": \"USDT\"\n}",
+                "project": "Foundations",
+                "id": "f110bfa0-bd5b-469b-a940-4524c8688136",
+                "savedPayload": {
+                    "position": {
+                        "x": 19872.7115465088,
+                        "y": 30585.97275982154
+                    },
+                    "targetPosition": {
+                        "x": 19763.10923919888,
+                        "y": 30865.2348844148
+                    },
+                    "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": false,
+                        "angleToParent": 2,
+                        "distanceToParent": 3,
+                        "arrangementStyle": 0
+                    },
+                    "uiObject": {
+                        "isRunning": false
+                    }
+                }
+            },
+            {
+                "type": "Asset",
+                "name": "ETH",
+                "config": "{ \n\"codeName\": \"ETH\"\n}",
+                "project": "Foundations",
+                "id": "a0dc62b7-76f9-4835-ac7d-b98fecd459d9",
+                "savedPayload": {
+                    "position": {
+                        "x": 19983.024800747826,
+                        "y": 30661.183063083525
+                    },
+                    "targetPosition": {
+                        "x": 19763.10923919888,
+                        "y": 30865.2348844148
+                    },
+                    "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": false,
+                        "angleToParent": 2,
+                        "distanceToParent": 3,
+                        "arrangementStyle": 0
+                    },
+                    "uiObject": {
+                        "isRunning": false
+                    }
+                }
+            },
+            {
+                "type": "Asset",
+                "name": "BNB",
+                "config": "{ \n\"codeName\": \"BNB\"\n}",
+                "project": "Foundations",
+                "id": "dbf01ecd-4c97-4154-ad42-672c6c4a89c4",
+                "savedPayload": {
+                    "position": {
+                        "x": 20049.78108093472,
+                        "y": 30776.80833209153
+                    },
+                    "targetPosition": {
+                        "x": 19763.10923919888,
+                        "y": 30865.2348844148
+                    },
+                    "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": false,
+                        "angleToParent": 2,
+                        "distanceToParent": 3,
+                        "arrangementStyle": 0
+                    },
+                    "uiObject": {
+                        "isRunning": false
+                    }
+                }
+            },
+            {
+                "type": "Asset",
+                "name": "SOL",
+                "config": "{ \n\"codeName\": \"SOL\"\n}",
+                "project": "Foundations",
+                "id": "b28ded80-ce52-49f7-b045-ddb2a1257e20",
+                "savedPayload": {
+                    "position": {
+                        "x": 20059.758487066418,
+                        "y": 30909.94756426765
+                    },
+                    "targetPosition": {
+                        "x": 19763.10923919888,
+                        "y": 30865.2348844148
+                    },
+                    "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": false,
+                        "angleToParent": 2,
+                        "distanceToParent": 3,
+                        "arrangementStyle": 0
+                    },
+                    "uiObject": {
+                        "isRunning": false
+                    }
+                }
+            },
+            {
+                "type": "Asset",
+                "name": "ADA",
+                "config": "{ \n\"codeName\": \"ADA\"\n}",
+                "project": "Foundations",
+                "id": "de3d3bf5-7f7a-40b9-8ca5-d5ca7562862c",
+                "savedPayload": {
+                    "position": {
+                        "x": 20010.980871493677,
+                        "y": 31034.230901833886
+                    },
+                    "targetPosition": {
+                        "x": 19763.10923919888,
+                        "y": 30865.2348844148
+                    },
+                    "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": false,
+                        "angleToParent": 2,
+                        "distanceToParent": 3,
+                        "arrangementStyle": 0
+                    },
+                    "uiObject": {
+                        "isRunning": false
+                    }
+                }
+            }
+        ],
+        "id": "95d2c30f-215b-486e-8119-f4eac0279575",
+        "savedPayload": {
+            "position": {
+                "x": 19763.10923919888,
+                "y": 30865.2348844148
+            },
+            "targetPosition": {
+                "x": 19503.301618063546,
+                "y": 31015.2348844148
+            },
+            "floatingObject": {
+                "isPinned": false,
+                "isFrozen": false,
+                "isCollapsed": false,
+                "angleToParent": 2,
+                "distanceToParent": 3,
+                "arrangementStyle": 0
+            },
+            "uiObject": {
+                "isRunning": false,
+                "shortcutKey": "E"
+            }
+        }
+    },
+    "exchangeMarkets": {
+        "type": "Exchange Markets",
+        "name": "New Exchange Markets",
+        "code": "{ \n\"codeName\": \"Write here the code name of the Market here.\"\n}",
+        "project": "Foundations",
+        "markets": [
+            {
+                "type": "Market",
+                "name": "BTC/USDT",
+                "config": "{ \n\"codeName\": \"BTC/USDT\"\n}",
+                "project": "Foundations",
+                "baseAsset": {
+                    "type": "Market Base Asset",
+                    "name": "Bitcoin",
+                    "project": "Foundations",
+                    "id": "1017b30d-de1b-4212-991e-9fd0a5b6c814",
+                    "savedPayload": {
+                        "position": {
+                            "x": 20202.8869870856,
+                            "y": 31502.68821908089
+                        },
+                        "targetPosition": {
+                            "x": 19913.10923919888,
+                            "y": 31425.042505550133
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 3,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        },
+                        "referenceParent": {
+                            "type": "Asset",
+                            "name": "Bitcoin",
+                            "id": "5f5e4a94-5090-47d4-8883-cc2325d20bfa"
+                        },
+                        "referenceParentCombinedNodePath": [
+                            [
+                                "My Crypto Ecosystem",
+                                "Crypto Ecosystem",
+                                "Foundations",
+                                "7217b56c-e854-4c06-8b8a-d5d3c05a153d"
+                            ],
+                            [
+                                "Tested",
+                                "Crypto Exchanges",
+                                "Foundations",
+                                "e3879d63-6f8f-41a3-8ac3-0349c4361722"
+                            ],
+                            [
+                                "Binance",
+                                "Crypto Exchange",
+                                "Foundations",
+                                "61ef0b8d-de6e-4e76-bdd5-996836760a4b"
+                            ],
+                            [
+                                "New Exchange Assets",
+                                "Exchange Assets",
+                                "Foundations",
+                                "95d2c30f-215b-486e-8119-f4eac0279575"
+                            ],
+                            [
+                                "Bitcoin",
+                                "Asset",
+                                "Foundations",
+                                "5f5e4a94-5090-47d4-8883-cc2325d20bfa"
+                            ]
+                        ]
+                    }
+                },
+                "quotedAsset": {
+                    "type": "Market Quoted Asset",
+                    "name": "Tether",
+                    "project": "Foundations",
+                    "id": "705c4a67-787a-48cd-a3dc-3a557438bf0b",
+                    "savedPayload": {
+                        "position": {
+                            "x": 20125.241273554842,
+                            "y": 31637.174539906096
+                        },
+                        "targetPosition": {
+                            "x": 19913.10923919888,
+                            "y": 31425.042505550133
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 3,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        },
+                        "referenceParent": {
+                            "type": "Asset",
+                            "name": "Tether",
+                            "id": "f110bfa0-bd5b-469b-a940-4524c8688136"
+                        },
+                        "referenceParentCombinedNodePath": [
+                            [
+                                "My Crypto Ecosystem",
+                                "Crypto Ecosystem",
+                                "Foundations",
+                                "7217b56c-e854-4c06-8b8a-d5d3c05a153d"
+                            ],
+                            [
+                                "Tested",
+                                "Crypto Exchanges",
+                                "Foundations",
+                                "e3879d63-6f8f-41a3-8ac3-0349c4361722"
+                            ],
+                            [
+                                "Binance",
+                                "Crypto Exchange",
+                                "Foundations",
+                                "61ef0b8d-de6e-4e76-bdd5-996836760a4b"
+                            ],
+                            [
+                                "New Exchange Assets",
+                                "Exchange Assets",
+                                "Foundations",
+                                "95d2c30f-215b-486e-8119-f4eac0279575"
+                            ],
+                            [
+                                "Tether",
+                                "Asset",
+                                "Foundations",
+                                "f110bfa0-bd5b-469b-a940-4524c8688136"
+                            ]
+                        ]
+                    }
+                },
+                "id": "9a867bf0-a71d-445c-b99a-75b60bbdce09",
+                "savedPayload": {
+                    "position": {
+                        "x": 19913.10923919888,
+                        "y": 31425.042505550133
+                    },
+                    "targetPosition": {
+                        "x": 19653.301618063546,
+                        "y": 31275.042505550133
+                    },
+                    "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": false,
+                        "angleToParent": 3,
+                        "distanceToParent": 3,
+                        "arrangementStyle": 0
+                    },
+                    "uiObject": {
+                        "isRunning": false
+                    }
+                }
+            },
+            {
+                "type": "Market",
+                "name": "ETH/USDT",
+                "config": "{ \n\"codeName\": \"ETH/USDT\"\n}",
+                "project": "Foundations",
+                "baseAsset": {
+                    "type": "Market Base Asset",
+                    "name": "ETH",
+                    "project": "Foundations",
+                    "id": "644b6649-9a03-441b-b4ad-8bbaca55ab4a",
+                    "savedPayload": {
+                        "position": {
+                            "x": 20125.241273554842,
+                            "y": 31637.174539906096
+                        },
+                        "targetPosition": {
+                            "x": 19865.43365241951,
+                            "y": 31487.174539906096
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 3,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        },
+                        "referenceParent": {
+                            "type": "Asset",
+                            "name": "ETH",
+                            "id": "a0dc62b7-76f9-4835-ac7d-b98fecd459d9"
+                        },
+                        "referenceParentCombinedNodePath": [
+                            [
+                                "My Crypto Ecosystem",
+                                "Crypto Ecosystem",
+                                "Foundations",
+                                "7217b56c-e854-4c06-8b8a-d5d3c05a153d"
+                            ],
+                            [
+                                "Tested",
+                                "Crypto Exchanges",
+                                "Foundations",
+                                "e3879d63-6f8f-41a3-8ac3-0349c4361722"
+                            ],
+                            [
+                                "Binance",
+                                "Crypto Exchange",
+                                "Foundations",
+                                "61ef0b8d-de6e-4e76-bdd5-996836760a4b"
+                            ],
+                            [
+                                "New Exchange Assets",
+                                "Exchange Assets",
+                                "Foundations",
+                                "95d2c30f-215b-486e-8119-f4eac0279575"
+                            ],
+                            [
+                                "ETH",
+                                "Asset",
+                                "Foundations",
+                                "a0dc62b7-76f9-4835-ac7d-b98fecd459d9"
+                            ]
+                        ]
+                    }
+                },
+                "quotedAsset": {
+                    "type": "Market Quoted Asset",
+                    "name": "Tether",
+                    "project": "Foundations",
+                    "id": "2dc4b6bc-b6fb-42ad-96e7-67343fd9659b",
+                    "savedPayload": {
+                        "position": {
+                            "x": 20015.43365241951,
+                            "y": 31746.98216104143
+                        },
+                        "targetPosition": {
+                            "x": 19865.43365241951,
+                            "y": 31487.174539906096
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 3,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        },
+                        "referenceParent": {
+                            "type": "Asset",
+                            "name": "Tether",
+                            "id": "f110bfa0-bd5b-469b-a940-4524c8688136"
+                        },
+                        "referenceParentCombinedNodePath": [
+                            [
+                                "My Crypto Ecosystem",
+                                "Crypto Ecosystem",
+                                "Foundations",
+                                "7217b56c-e854-4c06-8b8a-d5d3c05a153d"
+                            ],
+                            [
+                                "Tested",
+                                "Crypto Exchanges",
+                                "Foundations",
+                                "e3879d63-6f8f-41a3-8ac3-0349c4361722"
+                            ],
+                            [
+                                "Binance",
+                                "Crypto Exchange",
+                                "Foundations",
+                                "61ef0b8d-de6e-4e76-bdd5-996836760a4b"
+                            ],
+                            [
+                                "New Exchange Assets",
+                                "Exchange Assets",
+                                "Foundations",
+                                "95d2c30f-215b-486e-8119-f4eac0279575"
+                            ],
+                            [
+                                "Tether",
+                                "Asset",
+                                "Foundations",
+                                "f110bfa0-bd5b-469b-a940-4524c8688136"
+                            ]
+                        ]
+                    }
+                },
+                "id": "84cc8f02-781c-4acb-82e6-00cff5dc5457",
+                "savedPayload": {
+                    "position": {
+                        "x": 19865.43365241951,
+                        "y": 31487.174539906096
+                    },
+                    "targetPosition": {
+                        "x": 19653.301618063546,
+                        "y": 31275.042505550133
+                    },
+                    "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": false,
+                        "angleToParent": 3,
+                        "distanceToParent": 3,
+                        "arrangementStyle": 0
+                    },
+                    "uiObject": {
+                        "isRunning": false
+                    }
+                }
+            },
+            {
+                "type": "Market",
+                "name": "BNB/USDT",
+                "config": "{ \n\"codeName\": \"BNB/USDT\"\n}",
+                "project": "Foundations",
+                "baseAsset": {
+                    "type": "Market Base Asset",
+                    "name": "BNB",
+                    "project": "Foundations",
+                    "id": "c654b78a-3aa6-41dc-adae-25a54285240f",
+                    "savedPayload": {
+                        "position": {
+                            "x": 20015.43365241951,
+                            "y": 31746.98216104143
+                        },
+                        "targetPosition": {
+                            "x": 19803.301618063546,
+                            "y": 31534.850126685466
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 3,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        },
+                        "referenceParent": {
+                            "type": "Asset",
+                            "name": "BNB",
+                            "id": "dbf01ecd-4c97-4154-ad42-672c6c4a89c4"
+                        },
+                        "referenceParentCombinedNodePath": [
+                            [
+                                "My Crypto Ecosystem",
+                                "Crypto Ecosystem",
+                                "Foundations",
+                                "7217b56c-e854-4c06-8b8a-d5d3c05a153d"
+                            ],
+                            [
+                                "Tested",
+                                "Crypto Exchanges",
+                                "Foundations",
+                                "e3879d63-6f8f-41a3-8ac3-0349c4361722"
+                            ],
+                            [
+                                "Binance",
+                                "Crypto Exchange",
+                                "Foundations",
+                                "61ef0b8d-de6e-4e76-bdd5-996836760a4b"
+                            ],
+                            [
+                                "New Exchange Assets",
+                                "Exchange Assets",
+                                "Foundations",
+                                "95d2c30f-215b-486e-8119-f4eac0279575"
+                            ],
+                            [
+                                "BNB",
+                                "Asset",
+                                "Foundations",
+                                "dbf01ecd-4c97-4154-ad42-672c6c4a89c4"
+                            ]
+                        ]
+                    }
+                },
+                "quotedAsset": {
+                    "type": "Market Quoted Asset",
+                    "name": "Tether",
+                    "project": "Foundations",
+                    "id": "11b791ae-1c43-437e-ab4e-ab4cb105ec9f",
+                    "savedPayload": {
+                        "position": {
+                            "x": 19880.947331594303,
+                            "y": 31824.627874572187
+                        },
+                        "targetPosition": {
+                            "x": 19803.301618063546,
+                            "y": 31534.850126685466
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 3,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        },
+                        "referenceParent": {
+                            "type": "Asset",
+                            "name": "Tether",
+                            "id": "f110bfa0-bd5b-469b-a940-4524c8688136"
+                        },
+                        "referenceParentCombinedNodePath": [
+                            [
+                                "My Crypto Ecosystem",
+                                "Crypto Ecosystem",
+                                "Foundations",
+                                "7217b56c-e854-4c06-8b8a-d5d3c05a153d"
+                            ],
+                            [
+                                "Tested",
+                                "Crypto Exchanges",
+                                "Foundations",
+                                "e3879d63-6f8f-41a3-8ac3-0349c4361722"
+                            ],
+                            [
+                                "Binance",
+                                "Crypto Exchange",
+                                "Foundations",
+                                "61ef0b8d-de6e-4e76-bdd5-996836760a4b"
+                            ],
+                            [
+                                "New Exchange Assets",
+                                "Exchange Assets",
+                                "Foundations",
+                                "95d2c30f-215b-486e-8119-f4eac0279575"
+                            ],
+                            [
+                                "Tether",
+                                "Asset",
+                                "Foundations",
+                                "f110bfa0-bd5b-469b-a940-4524c8688136"
+                            ]
+                        ]
+                    }
+                },
+                "id": "8bc6b25b-7902-448d-8d7b-49862f6f181e",
+                "savedPayload": {
+                    "position": {
+                        "x": 19803.301618063546,
+                        "y": 31534.850126685466
+                    },
+                    "targetPosition": {
+                        "x": 19653.301618063546,
+                        "y": 31275.042505550133
+                    },
+                    "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": false,
+                        "angleToParent": 3,
+                        "distanceToParent": 3,
+                        "arrangementStyle": 0
+                    },
+                    "uiObject": {
+                        "isRunning": false
+                    }
+                }
+            },
+            {
+                "type": "Market",
+                "name": "SOL/USDT",
+                "config": "{ \n\"codeName\": \"SOL/USDT\"\n}",
+                "project": "Foundations",
+                "baseAsset": {
+                    "type": "Market Base Asset",
+                    "name": "SOL",
+                    "project": "Foundations",
+                    "id": "ee784e3d-7210-48b9-ad9d-494ad48109eb",
+                    "savedPayload": {
+                        "position": {
+                            "x": 19880.947331594303,
+                            "y": 31824.627874572187
+                        },
+                        "targetPosition": {
+                            "x": 19730.947331594303,
+                            "y": 31564.820253436854
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 3,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        },
+                        "referenceParent": {
+                            "type": "Asset",
+                            "name": "SOL",
+                            "id": "b28ded80-ce52-49f7-b045-ddb2a1257e20"
+                        },
+                        "referenceParentCombinedNodePath": [
+                            [
+                                "My Crypto Ecosystem",
+                                "Crypto Ecosystem",
+                                "Foundations",
+                                "7217b56c-e854-4c06-8b8a-d5d3c05a153d"
+                            ],
+                            [
+                                "Tested",
+                                "Crypto Exchanges",
+                                "Foundations",
+                                "e3879d63-6f8f-41a3-8ac3-0349c4361722"
+                            ],
+                            [
+                                "Binance",
+                                "Crypto Exchange",
+                                "Foundations",
+                                "61ef0b8d-de6e-4e76-bdd5-996836760a4b"
+                            ],
+                            [
+                                "New Exchange Assets",
+                                "Exchange Assets",
+                                "Foundations",
+                                "95d2c30f-215b-486e-8119-f4eac0279575"
+                            ],
+                            [
+                                "SOL",
+                                "Asset",
+                                "Foundations",
+                                "b28ded80-ce52-49f7-b045-ddb2a1257e20"
+                            ]
+                        ]
+                    }
+                },
+                "quotedAsset": {
+                    "type": "Market Quoted Asset",
+                    "name": "Tether",
+                    "project": "Foundations",
+                    "id": "f3d9114a-6b17-407a-afda-35a2fd65ca15",
+                    "savedPayload": {
+                        "position": {
+                            "x": 19730.947331594303,
+                            "y": 31864.820253436854
+                        },
+                        "targetPosition": {
+                            "x": 19730.947331594303,
+                            "y": 31564.820253436854
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 3,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        },
+                        "referenceParent": {
+                            "type": "Asset",
+                            "name": "Tether",
+                            "id": "f110bfa0-bd5b-469b-a940-4524c8688136"
+                        },
+                        "referenceParentCombinedNodePath": [
+                            [
+                                "My Crypto Ecosystem",
+                                "Crypto Ecosystem",
+                                "Foundations",
+                                "7217b56c-e854-4c06-8b8a-d5d3c05a153d"
+                            ],
+                            [
+                                "Tested",
+                                "Crypto Exchanges",
+                                "Foundations",
+                                "e3879d63-6f8f-41a3-8ac3-0349c4361722"
+                            ],
+                            [
+                                "Binance",
+                                "Crypto Exchange",
+                                "Foundations",
+                                "61ef0b8d-de6e-4e76-bdd5-996836760a4b"
+                            ],
+                            [
+                                "New Exchange Assets",
+                                "Exchange Assets",
+                                "Foundations",
+                                "95d2c30f-215b-486e-8119-f4eac0279575"
+                            ],
+                            [
+                                "Tether",
+                                "Asset",
+                                "Foundations",
+                                "f110bfa0-bd5b-469b-a940-4524c8688136"
+                            ]
+                        ]
+                    }
+                },
+                "id": "5be0a8bb-57df-48d7-a81a-5a5822aa8822",
+                "savedPayload": {
+                    "position": {
+                        "x": 19730.947331594303,
+                        "y": 31564.820253436854
+                    },
+                    "targetPosition": {
+                        "x": 19653.301618063546,
+                        "y": 31275.042505550133
+                    },
+                    "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": true,
+                        "angleToParent": 3,
+                        "distanceToParent": 3,
+                        "arrangementStyle": 0
+                    },
+                    "uiObject": {
+                        "isRunning": false
+                    }
+                }
+            },
+            {
+                "type": "Market",
+                "name": "ADA/USDT",
+                "config": "{ \n\"codeName\": \"Type the name of the market\"\n}",
+                "project": "Foundations",
+                "baseAsset": {
+                    "type": "Market Base Asset",
+                    "name": "ADA",
+                    "project": "Foundations",
+                    "id": "c5f391f5-4c55-4adc-8a77-27255a06a6a9",
+                    "savedPayload": {
+                        "position": {
+                            "x": 19730.947331594303,
+                            "y": 31864.820253436854
+                        },
+                        "targetPosition": {
+                            "x": 19653.301618063546,
+                            "y": 31575.042505550133
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 3,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        },
+                        "referenceParent": {
+                            "type": "Asset",
+                            "name": "ADA",
+                            "id": "de3d3bf5-7f7a-40b9-8ca5-d5ca7562862c"
+                        },
+                        "referenceParentCombinedNodePath": [
+                            [
+                                "My Crypto Ecosystem",
+                                "Crypto Ecosystem",
+                                "Foundations",
+                                "7217b56c-e854-4c06-8b8a-d5d3c05a153d"
+                            ],
+                            [
+                                "Tested",
+                                "Crypto Exchanges",
+                                "Foundations",
+                                "e3879d63-6f8f-41a3-8ac3-0349c4361722"
+                            ],
+                            [
+                                "Binance",
+                                "Crypto Exchange",
+                                "Foundations",
+                                "61ef0b8d-de6e-4e76-bdd5-996836760a4b"
+                            ],
+                            [
+                                "New Exchange Assets",
+                                "Exchange Assets",
+                                "Foundations",
+                                "95d2c30f-215b-486e-8119-f4eac0279575"
+                            ],
+                            [
+                                "ADA",
+                                "Asset",
+                                "Foundations",
+                                "de3d3bf5-7f7a-40b9-8ca5-d5ca7562862c"
+                            ]
+                        ]
+                    }
+                },
+                "quotedAsset": {
+                    "type": "Market Quoted Asset",
+                    "name": "Tether",
+                    "project": "Foundations",
+                    "id": "37daec1b-db09-4fe9-82c3-fceab0a2e06e",
+                    "savedPayload": {
+                        "position": {
+                            "x": 19575.65590453279,
+                            "y": 31864.820253436854
+                        },
+                        "targetPosition": {
+                            "x": 19653.301618063546,
+                            "y": 31575.042505550133
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 3,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        },
+                        "referenceParent": {
+                            "type": "Asset",
+                            "name": "Tether",
+                            "id": "f110bfa0-bd5b-469b-a940-4524c8688136"
+                        },
+                        "referenceParentCombinedNodePath": [
+                            [
+                                "My Crypto Ecosystem",
+                                "Crypto Ecosystem",
+                                "Foundations",
+                                "7217b56c-e854-4c06-8b8a-d5d3c05a153d"
+                            ],
+                            [
+                                "Tested",
+                                "Crypto Exchanges",
+                                "Foundations",
+                                "e3879d63-6f8f-41a3-8ac3-0349c4361722"
+                            ],
+                            [
+                                "Binance",
+                                "Crypto Exchange",
+                                "Foundations",
+                                "61ef0b8d-de6e-4e76-bdd5-996836760a4b"
+                            ],
+                            [
+                                "New Exchange Assets",
+                                "Exchange Assets",
+                                "Foundations",
+                                "95d2c30f-215b-486e-8119-f4eac0279575"
+                            ],
+                            [
+                                "Tether",
+                                "Asset",
+                                "Foundations",
+                                "f110bfa0-bd5b-469b-a940-4524c8688136"
+                            ]
+                        ]
+                    }
+                },
+                "id": "e6081a71-45b2-48c2-8653-0152489825ae",
+                "savedPayload": {
+                    "position": {
+                        "x": 19653.301618063546,
+                        "y": 31575.042505550133
+                    },
+                    "targetPosition": {
+                        "x": 19653.301618063546,
+                        "y": 31275.042505550133
+                    },
+                    "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": false,
+                        "angleToParent": 3,
+                        "distanceToParent": 3,
+                        "arrangementStyle": 0
+                    },
+                    "uiObject": {
+                        "isRunning": false
+                    }
+                }
+            }
+        ],
+        "id": "2fd80894-900e-44ac-a1a7-56c14124f7a1",
+        "savedPayload": {
+            "position": {
+                "x": 19653.301618063546,
+                "y": 31275.042505550133
+            },
+            "targetPosition": {
+                "x": 19503.301618063546,
+                "y": 31015.2348844148
+            },
+            "floatingObject": {
+                "isPinned": false,
+                "isFrozen": false,
+                "isCollapsed": false,
+                "angleToParent": 1,
+                "distanceToParent": 3,
+                "arrangementStyle": 0
+            },
+            "uiObject": {
+                "isRunning": false
+            }
+        }
+    },
+    "id": "61ef0b8d-de6e-4e76-bdd5-996836760a4b",
+    "savedPayload": {
+        "position": {
+            "x": 19503.301618063546,
+            "y": 31015.2348844148
+        },
+        "targetPosition": {
+            "x": 19203.301618063546,
+            "y": 31015.2348844148
+        },
+        "floatingObject": {
+            "isPinned": false,
+            "isFrozen": false,
+            "isCollapsed": false,
+            "angleToParent": 2,
+            "distanceToParent": 3,
+            "arrangementStyle": 0
+        },
+        "uiObject": {
+            "isRunning": false,
+            "shortcutKey": ""
+        },
+        "tutorial": {
+            "status": "Done"
+        }
+    }
+}
